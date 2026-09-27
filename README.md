@@ -19,3 +19,7 @@ The atlas is built through a self-created, Fibonacci- and nature-inspired bluepr
 ## The system
 
 The atlas is also the beginning of a reusable system for building and inspecting a living self-model. See the [atlas-system placeholder](atlas-system.md); it records principles discovered while the system emerges.
+
+## Direction
+
+The atlas now enters a field of productive tensions: forces that shape its direction without needing to be resolved too early. See the [direction placeholder](DIRECTION.md).

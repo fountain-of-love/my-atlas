@@ -12,14 +12,18 @@ This repository is the atlas in progress.
 
 The next layer is the ontology: the space of possible self-description, defining what belongs in the model and how its parts may relate. It will provide the vocabulary and boundaries for describing this living self-model. See the [ontology placeholder](ONTOLOGY.md); we will describe it soon.
 
-## Approach
+## Direction
 
-The atlas is built through a self-created, Fibonacci- and nature-inspired blueprint that reflects natural evolution and natural compression. It gives direction, movement, and form to the model. See the [approach placeholder](APPROACH.md); we will describe it soon.
+The atlas moves according to a self-created, Fibonacci- and nature-inspired blueprint that reflects natural evolution and natural compression. It describes why we are moving, how we choose to move, and the generative orientation giving direction, movement, and form to the model. See the [direction placeholder](DIRECTION.md); we will describe it further as it emerges.
+
+## Tensions
+
+The atlas is entering a field of tensions: spectra of opposing or complementary forces under whose pressure it can emerge. See the [tensions placeholder](TENSIONS.md); these tensions should remain open long enough for deeper movements to become observable.
+
+## Dances
+
+Several movements are beginning to coexist. They are being observed as possible dances, not yet established structures. See the [dances placeholder](DANCES.md).
 
 ## The system
 
-The atlas is also the beginning of a reusable system for building and inspecting a living self-model. See the [atlas-system placeholder](atlas-system.md); it records principles discovered while the system emerges.
-
-## Direction
-
-The atlas now enters a field of productive tensions: forces that shape its direction without needing to be resolved too early. See the [direction placeholder](DIRECTION.md).
+The atlas is also the beginning of a reusable system for building and inspecting a living self-model. See the [atlas-system placeholder](atlas-system.md); it records observations that may become system-relevant while remaining explicitly provisional.

@@ -14,14 +14,8 @@ The next layer is the ontology: the space of possible self-description, defining
 
 ## Approach
 
-### Why
+The atlas is built through a self-created, Fibonacci- and nature-inspired blueprint that reflects natural evolution and natural compression. It gives direction, movement, and form to the model. See the [approach placeholder](APPROACH.md); we will describe it soon.
 
-This is me presenting myself: showing myself to the world through my work.
+## The system
 
-### How
-
-I build the atlas by applying how I work: a self-created, Fibonacci- and nature-inspired blueprint that reflects natural evolution and natural compression. It gives direction, movement, and form to the model.
-
-### What
-
-This repository is the result—the living record of that approach in practice. The blueprint is reflected in many ways: in the content, in who I am, and in the evolution of the repository itself, including its commits.
+The atlas is also the beginning of a reusable system for building and inspecting a living self-model. See the [atlas-system placeholder](atlas-system.md); it records principles discovered while the system emerges.

@@ -1,6 +1,6 @@
 # Outputs
 
-Outputs are views over the canonical model. They should be generated or assembled from model entries rather than becoming competing sources of truth.
+Outputs are views over the canonical, person-first source. They should be generated or assembled from source entries rather than becoming competing sources of truth.
 
 Possible views include:
 

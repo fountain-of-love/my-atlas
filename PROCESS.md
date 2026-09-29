@@ -4,11 +4,11 @@ This is the practical process for developing the Atlas while keeping the field o
 
 ## The fishbone
 
-The repository structure acts as a fishbone: a concrete spine against which ideas, facts, experiments, and questions can be placed. It is useful because it gives direction without claiming that the final system is already known.
+The repository structure acts as a fishbone: a concrete surface against which ideas, facts, experiments, and questions can be placed. The person-first source is the central perspective; contexts and evidence are branches that help us observe and test what is true. It is useful because it gives direction without claiming that the final system is already known.
 
 We can use it to:
 
-- place new material in a provisional domain;
+- place new material in a provisional person or context domain;
 - test whether a domain needs its own concepts or relationships;
 - try different entry shapes;
 - compare domain-specific specifications;
@@ -18,7 +18,7 @@ We can use it to:
 ## Working loop
 
 1. **Gather** lived experience, intuition, artefacts, decisions, and questions.
-2. **Place** the material against the fishbone, using the nearest provisional domain.
+2. **Place** the material against the fishbone, using the nearest provisional person or context domain.
 3. **Shape** it into a human-readable entry with explicit metadata where useful.
 4. **Relate** it to concepts, domains, projects, skills, outcomes, and evidence.
 5. **Reflect** on what the material reveals, including uncertainty and contradiction.

@@ -8,17 +8,13 @@ It is a field of possible self-description, not yet a finished taxonomy. The ont
 
 The Atlas currently needs to represent at least:
 
-- **the person**: identity, philosophy, values, interests, and direction;
-- **experiences**: roles, contexts, responsibilities, decisions, and learning;
-- **projects**: created things, contributions, outcomes, and lessons;
-- **skills**: capabilities demonstrated in context;
-- **education**: formal and informal learning;
-- **people and organizations**: relationships and contexts;
+- **the person**: the primary subject, including identity, patterns, capabilities, philosophy, values, interests, ways of working, and direction;
+- **contexts**: experiences, projects, organizations, relationships, and learning situations through which the person becomes visible;
 - **evidence**: artefacts, outcomes, references, metrics, and other support for claims;
 - **domains**: different areas of life and work that may require different local structures;
-- **outputs**: views generated from the canonical model.
+- **outputs**: views generated from the canonical source.
 
-These are candidate domains, not a closed list.
+The person is the organizing perspective. Contexts are not the model’s spine; they are material through which patterns and capabilities can be observed, tested, and evidenced. These are candidate domains, not a closed list.
 
 ## Core relationship
 
@@ -28,9 +24,11 @@ The model should make it possible to move from:
 
 For example, a claim about a capability should be grounded in where it was used, what happened, what supports the claim, and what was learned from the experience.
 
-## One model, multiple views
+## One self-model, multiple views
 
-The canonical information should live in the model entries rather than in any single presentation. A CV, website, profile, or LLM interaction can then become a view over shared material.
+The canonical information should live in the person-first source entries rather than in any single presentation. A CV, website, profile, or LLM interaction can then become a view over shared material.
+
+The CV is therefore a useful output, not the conceptual centre. It selects evidence from the person and its contexts to serve a particular purpose.
 
 ## Human and machine readability
 

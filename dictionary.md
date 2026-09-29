@@ -8,17 +8,20 @@ Definitions are provisional until tested in real entries.
 
 | Term | Working meaning |
 |---|---|
-| **Person** | The living subject represented by the Atlas. |
+| **Person** | The living subject represented by the Atlas and its primary organizing perspective. |
+| **Pattern** | A recurring way of perceiving, thinking, deciding, creating, or relating. |
+| **Capability** | A capacity that can be observed through action across one or more contexts. |
+| **Way of working** | The characteristic approach through which Yves turns intent into movement and outcomes. |
 | **Experience** | A situated period of participation, responsibility, or work. |
 | **Project** | A bounded effort that produces change, artefacts, or learning. |
-| **Skill** | A capability demonstrated through action in context. |
+| **Skill** | A narrower or context-specific expression of a capability. |
 | **Domain** | An area of the model with its own concepts, relationships, and specification. |
 | **Evidence** | Material that supports, qualifies, or challenges a claim. |
 | **Claim** | A statement the Atlas makes about Yves, his work, or his development. |
 | **Context** | The conditions, people, organization, problem, or situation around a claim. |
 | **Outcome** | A change, result, artefact, or effect produced by an action or project. |
 | **Learning** | An extracted insight, changed understanding, or next practice resulting from experience. |
-| **Output** | A generated view of the canonical self-model for a particular audience or purpose. |
+| **Output** | A generated view of the canonical person-first self-model for a particular audience or purpose. |
 | **Spec** | A guide describing the expected shape and questions for a kind of entry. |
 | **Pattern** | A recurring relationship or behaviour observed across entries or cycles. |
 

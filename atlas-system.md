@@ -110,15 +110,21 @@ The ambition to create a public and reusable self-model introduces an exposure â
 
 This is an observation about a needed capability, not a proposed access-control architecture.
 
-### One source can support many expressions
+### One person-first source can support many expressions
 
-The self-model should be canonical while its outputs remain plural. A CV, website, profile, or LLM interaction may select and compress different aspects for different audiences without becoming a competing source of truth.
+The person-first self-model should be canonical while its outputs remain plural. A CV, website, profile, or LLM interaction may select and compress different aspects for different audiences without becoming a competing source of truth.
 
 This makes the repository useful both as a living knowledge base and as a generator of practical representations.
 
+### The person is the perspective, not another category
+
+The initial scaffold was shaped too strongly by the composition of a CV. The emerging correction is to organize the source around the person: patterns, capabilities, identity, values, philosophy, ways of working, interests, and direction.
+
+Experiences, projects, education, organizations, and relationships remain important, but as contexts in which the person becomes observable. They should help us discover and evidence who Yves is rather than define the full shape of who he can be.
+
 ### Domains may be heterogeneous
 
-The fishbone can identify multiple domains, but the domains do not need to share one rigid schema. An experience, project, skill, relationship, or personal value may require different questions, relationships, evidence, and forms of interpretation.
+The fishbone can identify multiple domains, but the domains do not need to share one rigid schema. A pattern, capability, experience, project, relationship, or personal value may require different questions, relationships, evidence, and forms of interpretation.
 
 The system may therefore need a family of local specifications connected by shared vocabulary rather than one universal record type.
 

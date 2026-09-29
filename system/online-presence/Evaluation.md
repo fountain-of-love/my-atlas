@@ -1557,3 +1557,34 @@ And I think that gives your Gemstones idea a very strong general principle:
 > **The document should become more precise as the reader moves deeper, not merely more structured.**
 
 That allows you to preserve the thing I think is particularly good about your experiment: **a human can stop anywhere and still get a meaningful understanding**, while an expert or an LLM can keep descending until it reaches the level of precision it needs.
+
+## Subsequent boundary clarification
+
+The online-presence document is an **input**, not the person model. The
+canonical flow is:
+
+```text
+Inputs → Person-first Model → Outputs
+```
+
+The input records observable public evidence and may route an observation to
+Experience, Identity, Interaction, Growth, or Behaviour. It should not turn
+that route into an interpretation of Yves. Comparison, interpretation,
+validation, and integration belong in the person-first model under `source/`.
+
+The earlier concept of an individual Online Presence Manifestation as a
+complete five-element system caused three boundaries to blur:
+
+- the public presence being observed;
+- the representation of the evidence; and
+- the machinery used to discover, process, and validate it.
+
+The corrected sequence is:
+
+```text
+source → observation → lens contribution → model candidate → validated source entry
+```
+
+This preserves the useful evidence, provenance, identity boundaries, and
+processing metadata of an online-presence input while keeping person-level
+meaning in the canonical model.

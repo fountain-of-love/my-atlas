@@ -1,7 +1,7 @@
-# Online Presence Lifecycle
+# Online Presence Input Lifecycle
 
-The lifecycle of producing a manifestation should remain distinct from the
-canonical five-element system.
+The lifecycle of processing an online-presence input should remain distinct
+from the person-first model and from the outputs generated from that model.
 
 A possible lifecycle is:
 
@@ -9,15 +9,14 @@ A possible lifecycle is:
 discover
 → inspect
 → observe
-→ relate
-→ interpret
+→ map lens contribution
 → corroborate
-→ validate
-→ integrate
-→ revise
+→ route to ingestion
 ```
 
-These are operational stages within the manifestation system.
+These are operational stages for creating and processing an evidence-bearing
+input. Person-level interpretation, validation of personal meaning, and
+integration into `source/` happen after this input stage.
 
 They are governed through **Orchestration / Program**, carried out through
 **Execution / Actors**, connected and transformed through **Coordination /
@@ -38,4 +37,5 @@ Actors  ↔ Execution
 ```
 
 What changes across levels is not the grammar, but the field being observed and
-the content occupying each position.
+the content occupying each position. The input lifecycle must not be mistaken
+for the person's Interaction, Growth, or Behaviour.

@@ -1,41 +1,67 @@
 # My Atlas System
 
-My Atlas is an open, living model of **Yves Langeraert**.
+This folder is the system-facing layer of My Atlas. It is beginning to show
+its own shape through reusable concepts, processing capabilities, and domain
+applications, while still carrying the foundations from which it emerged.
 
-It is a context-engineered and inspectable self-model: a place to represent how I think, what I can do, what I have built, what I believe, what I have learned, and where I am going.
+The system is not a second source of truth about Yves. The canonical material
+about Yves lives in [`source/`](../source/README.md). The system describes how
+that material can be understood, developed, connected, processed, and
+expressed.
 
-The ontology will grow alongside the model. Its structure, concepts, relationships, and evidence should remain understandable, revisable, and open to discovery.
+## System map
 
-This repository is the atlas in progress.
+```text
+foundations        → inherited field, vocabulary, and working grammar
+atlas-system.md    → observations about the system becoming itself
+dictionary.md      → shared semantic vocabulary
+skills/            → reusable processing capabilities
+online-presence/   → first domain-specific system application
+```
 
-## The field
+## Foundations
 
-The next layer is the ontology: the space of possible self-description, defining what belongs in the model and how its parts may relate. It provides the vocabulary and boundaries for describing this living self-model. See the [ontology](ONTOLOGY.md), [dictionary](dictionary.md), and [source workspace](../source/README.md).
+The documents in [`foundations/`](foundations/) are the retained bootstrap
+layer. Their content remains relevant, but they are not treated as the final
+system architecture. They describe the field in which the newer system has
+started to emerge:
 
-The field is also a pragmatic fishbone: a structure to throw material against, explore with, and learn from.
+- [Ontology](foundations/ontology.md) — possible concepts and relationships;
+- [Process](foundations/process.md) — the working loop for developing the Atlas;
+- [Ingestion](foundations/ingestion.md) — bringing existing material into the source model;
+- [Self-model](foundations/self-model.md) — the five person-level lenses;
+- [Direction](foundations/direction.md) — why and how the Atlas moves;
+- [Tensions](foundations/tensions.md) — the pressures held open in the field;
+- [Dances](foundations/dances.md) — movements observed across those tensions.
 
-## Direction
+These are connected foundations, not a discarded archive. When the emerging
+system develops a clearer form, it should refine, absorb, split, or supersede
+them through explicit links and preserved lineage.
 
-The atlas moves according to a self-created, Fibonacci- and nature-inspired blueprint that reflects natural evolution and natural compression. It describes why we are moving, how we choose to move, and the generative orientation giving direction, movement, and form to the model. See the [working direction](DIRECTION.md); we will refine it as it emerges.
+## Emerging system
 
-## Tensions
+- [Atlas system observations](atlas-system.md) — harvested observations, provisional capabilities, operating principles, and questions about what is emerging;
+- [Dictionary](dictionary.md) — shared vocabulary for Yves, Enigma, readers, and tools;
+- [Processing skills](skills/README.md) — reusable capabilities for source cartography, signal extraction, and provenance weaving;
+- [Online Presence Meta-System](online-presence/README.md) — a domain application for observing public presence and routing evidence into the person-first model.
 
-The atlas is entering a field of tensions: spectra of opposing or complementary forces under whose pressure it can emerge. See the [tensions](TENSIONS.md); these tensions should remain open long enough for deeper movements to become observable.
+## Boundary and flow
 
-## Dances
+```text
+inputs/ → foundations/ingestion.md + skills/ → source/ → outputs/
+                         ↑
+                 atlas-system.md
+```
 
-Several movements are beginning to coexist. They are being observed as possible dances, not yet established structures. See the [dances](DANCES.md).
+Inputs remain evidence-bearing material until they are processed and
+validated. The source remains canonical. Outputs are views. The system learns
+from this flow and from the repository’s own revisions, but should not turn
+every useful observation into a fixed component prematurely.
 
-## Outputs
+## How to work here
 
-One self-model should support multiple expressions: a CV, website, profile, and future human or machine interactions. The [outputs workspace](../outputs/README.md) describes these as views rather than separate sources of truth.
-
-## The system
-
-The atlas is also the beginning of a reusable system for building and inspecting a living self-model. See the [atlas-system notes](atlas-system.md); they record observations that may become system-relevant while remaining explicitly provisional.
-
-The practical working method is described in [PROCESS.md](PROCESS.md), with domain-specific structures collected under [specs](../specs/README.md). The source is person-first; CVs and other presentations are derived views.
-
-## Ingestion
-
-Existing material enters through the [inputs](../inputs/README.md) folder and moves through the [ingestion loop](INGESTION.md). The reusable processing capabilities are documented under [skills](skills/README.md).
+Read the smallest connected set of documents needed for the task. Use the
+foundations to understand inherited meaning, `atlas-system.md` to understand
+what is currently emerging, and the domain folders for concrete applications.
+Keep observations, interpretations, validated knowledge, and system design
+decisions distinct. Let recurring use and evidence earn further formalisation.

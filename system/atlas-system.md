@@ -16,6 +16,8 @@ This keeps the emerging system inspectable, extensible, and reusable by others w
 
 The atlas is applying its own evolutionary process while documenting it. System-relevant observations may be collected here, but they remain hypotheses until repeated movement provides stronger evidence.
 
+The inherited field is kept together under [foundations](foundations/README.md). Those documents provide the vocabulary, lenses, tensions, and working grammar from which the current system is emerging; this document records what is beginning to exceed that bootstrap layer.
+
 ## Harvested observations
 
 ### The system is self-describing

@@ -1,7 +1,7 @@
 ---
-type: online-presence
+type: online-presence-input
 subject: "[[Yves Langeraert]]"
-status: processed
+status: discovery-result
 validated-by-subject: false
 source-entries-created: false
 evidence-objects-created: false
@@ -17,7 +17,7 @@ captured: 2026-09-29
 
 The available material connects him particularly strongly with [[Leuven]], [[KU Leuven]], [[Doclr]], and [[Vioras]], while more recent public material connects him with [[Fountain of Love]] and a broader ecosystem concerned with technology, language, AI, governance, and human collaboration.
 
-His online presence is not concentrated in a single profile. It is distributed across professional and research profiles, publications, organizational material, public writing, and software projects. Taken together, these sources form a recognizable public identity, while also leaving important questions about individual contributions and capabilities that require deeper investigation.
+His online presence is not concentrated in a single profile. It is distributed across professional and research profiles, publications, organizational material, public writing, and software projects. Taken together, these sources form a coherent source cluster, while also leaving important questions about individual contributions and capabilities that require deeper investigation.
 
 This document maps observable online presence. It distinguishes what is directly visible from what the material may eventually allow us to understand.
 
@@ -41,6 +41,64 @@ The strongest visible contexts are:
 - public technical writing and open-source material.
 
 The public presence also contains an important identity boundary: search material for a golf professional with the same name should not be merged into this identity.
+
+## Lens contribution map
+
+This map routes observations toward the person-level self-model. It does not
+interpret Yves or make a finished claim. The observations remain in this input
+until they are compared, validated, and integrated into `source/`.
+
+### Experience
+
+lens-contribution:: Experience
+
+Observable material includes professional and research profiles, education and
+certification references, previous associations with [[KU Leuven]], [[Doclr]],
+and [[Vioras]], and a 2021 publication concerning Belgian primary-care
+monitoring. These are source contexts and history signals; the person's
+meaning or significance of them remains open.
+
+### Identity
+
+lens-contribution:: Identity
+
+[[LinkedIn]] presents a current professional positioning. [[ResearchGate]]
+presents a research-oriented profile. Public writing and organizational
+material provide additional forms of expression. The relationship between
+organizational language and Yves's own identity remains to be established
+where it is not explicitly personal.
+
+### Interaction
+
+lens-contribution:: Interaction
+
+The sources name relationships with [[KU Leuven]], [[Doclr]], [[Vioras]],
+[[Fountain of Love]], research contexts, and public or technical communities.
+Acknowledgements, memberships, organizational associations, and project
+relationships are observable. They do not by themselves establish the nature,
+depth, or pattern of Yves's collaboration or communication.
+
+### Growth
+
+lens-contribution:: Growth
+
+The material contains recurring references to data, healthcare technology,
+software, artificial intelligence, machine learning, architecture, and
+technology-and-society questions across different public contexts. These may
+help locate recurring direction when compared with other inputs, but the
+current input does not establish private intention or a confirmed trajectory.
+
+### Behaviour
+
+lens-contribution:: Behaviour
+
+Public material contains concrete references to healthcare-data systems,
+monitoring, reporting, visualisation, and decision-support. A technical
+comment addresses dependency injection and repository architecture. A source
+describes a data-architect role, while other sources associate Yves with
+projects and repositories. These observations may support later examination
+of demonstrated work and ways of working; they do not independently establish
+complete capability or authorship.
 
 ## Professional and research presence
 
@@ -164,7 +222,7 @@ domain:: healthcare-technology
 
 ## Research and technical vocabulary
 
-A second layer of Yves’s public presence emerges from the vocabulary surrounding his research and technical activity.
+Public material contains recurring technical vocabulary in research and technical contexts.
 
 subject:: [[Yves Langeraert]]
 domain:: [[Machine learning]]
@@ -277,9 +335,10 @@ The following distinctions should remain active throughout further processing:
 - Public availability does not imply permission to reproduce sensitive details.
 - Lack of a visible result does not establish absence.
 
-## What this presence may tell us
+## Follow-up routes
 
-The current material suggests several promising directions for deeper investigation.
+The current material identifies several domains and sources for deeper
+observation. These are follow-up routes, not conclusions about Yves.
 
 candidate-domain:: [[Data architecture]]
 candidate-domain:: [[Healthcare technology]]
@@ -289,15 +348,16 @@ candidate-domain:: [[Software architecture]]
 candidate-domain:: [[Research]]
 candidate-domain:: [[Technology and society]]
 
-The most interesting question is not simply:
+Useful follow-up questions include:
 
-> What skills does Yves have?
+- Which source directly establishes each observed contribution?
+- Which relationships and contexts should be inspected more deeply?
+- Which observations can be routed to Experience, Identity, Interaction, Growth, or Behaviour?
+- What remains unresolved after source-level inspection?
 
-but:
-
-> What recurring patterns of work, thinking, and system-building become visible when the individual sources are examined together?
-
-The current discovery result is not sufficient to answer that question. It does, however, identify the source material from which such an answer might eventually be constructed.
+The current discovery result does not answer these questions. It identifies the
+source material from which model candidates may eventually be constructed and
+validated.
 
 ## Evidence map
 
@@ -328,7 +388,7 @@ source-type:: article
 source-type:: technical-writing
 source-type:: software
 
-Each source should eventually become its own evidence object where the distinction between source, observation, claim, and inference can be preserved.
+Each source should eventually become its own evidence object where the distinction between source, observation, lens contribution, and later model candidate can be preserved.
 
 ## Deeper investigation
 
@@ -342,10 +402,10 @@ For example:
     → observations
     → named entities
     → relationships
-    → individual contribution
+    → lens contribution
     → technical systems
     → evidence
-    → claims
+    → model candidate
 ```
 
 Or:
@@ -355,8 +415,9 @@ Or:
     → repositories
     → concepts
     → specifications
-    → design principles
-    → relation to Yves’s public work
+    → evidence
+    → lens contribution
+    → model candidate
 ```
 
 This document remains the map of the online presence. Deeper documents provide the evidence from which the map can evolve.

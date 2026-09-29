@@ -1,45 +1,63 @@
 # Online Presence Meta-System
 
-The Online Presence Meta-System defines how a person's publicly observable presence is discovered, interpreted, structured, validated, represented, and evolved into an individual Online Presence Manifestation.
+The Online Presence Meta-System defines how a person's publicly observable presence is discovered, observed, structured, validated, and routed into the person-first source model.
 
-It does not itself describe a person's public presence. Instead, it governs the creation and evolution of manifestations that represent that presence.
+It does not itself describe a person's public presence, and an online-presence input is not itself the person model. It governs how public evidence can enter the Atlas without allowing source material, processing mechanics, or provisional observations to become a finished interpretation.
 
-Three levels should remain distinct:
+The following boundaries should remain distinct:
 
 1. **Public Presence Field**  
     The distributed public reality being observed: profiles, repositories, publications, performances, websites, organisations, communities, interactions, chronology, metadata, relationships, and other observable traces.
     
-2. **Online Presence Manifestation**  
-    A living, evidence-aware representation of one person's public presence. It organises observations, patterns, claims, contexts, provenance, uncertainty, and navigation into a coherent view without becoming a replacement for underlying sources.
+2. **Online Presence Input**
+    An evidence-bearing record of observations from the public field. It preserves sources, contexts, relationships, provenance, uncertainty, and possible contributions to the person lenses. It does not interpret the person or replace the canonical source model.
     
-3. **Online Presence Meta-System**  
-    The reusable system that defines how Online Presence Manifestations are produced, governed, evaluated, improved, and learned from.
+3. **Person-first Model**
+    The canonical source model of the person. Validated material from inputs is integrated here under the person-level lenses: Experience, Identity, Interaction, Growth, and Behaviour.
+
+4. **Outputs**
+    Views generated from the person-first model for a particular audience or purpose, such as a profile, portfolio, CV, website, or context package.
+
+5. **Online Presence Meta-System**
+    The reusable system that defines how online-presence inputs are produced, governed, evaluated, improved, and routed into the model.
+
+The core flow is:
+
+```text
+public presence field
+        ↓ observe
+online-presence input
+        ↓ validate and route
+person-first model
+        ↓ select and express
+outputs
+```
     
 
-The canonical model remains person-first. A manifestation is an observation of a person's public field, not a definitive biography, CV, or statement of capability. It should preserve room for the subject's presence to evolve and support different forms of public expression, such as a GitHub portfolio, an artist's SoundCloud presence, a research profile, a professional website, or combinations of these.
+The canonical model remains person-first. An input is evidence about a person's public field, not a definitive biography, CV, or statement of capability. It should preserve room for the subject's source model to evolve and support different forms of public expression later.
 
-## Manifestation principles
+## Input principles
 
-Each Online Presence Manifestation should:
+Each online-presence input should:
 
 - give a human reader a meaningful view of the subject quickly;
     
 - identify the public contexts in which the subject appears;
     
-- distinguish source observations, patterns, claims, and inferences;
+- distinguish sources, observations, and processing state;
     
 - preserve provenance, uncertainty, and explicit boundaries;
     
 - support relationships between observations and underlying evidence;
     
-- route useful material into deeper evidence and source objects where appropriate;
+- indicate which person-level lenses an observation may contribute to;
     
 - expose enough structure for later human or machine processing;
     
-- remain a living representation rather than becoming a second source of truth.
+- remain an input rather than becoming a second source of truth.
     
 
-The manifestation therefore acts as both a structured public-presence view and a navigation layer into deeper evidence held in `source/`.
+Interpretation and model formation happen after observation, during ingestion into `source/`. The input may say that an observation can contribute to **Experience** or **Behaviour**, but it must not silently turn that route into a claim about the person.
 
 ## The canonical five-element system
 
@@ -55,7 +73,7 @@ The Online Presence architecture uses one canonical five-element system expresse
 
 These mappings remain invariant across system levels.
 
-The content occupying each element may change depending on whether we are looking at the Meta-System or at an individual Manifestation, but the relationship between the structural and functional views does not change.
+The content occupying each element may change depending on whether we are looking at the Meta-System or at the person-first Model, but the relationship between the structural and functional views does not change.
 
 A useful diagnostic lens is:
 
@@ -73,10 +91,10 @@ At the Meta-System level, the five elements describe how the Online Presence sys
 
 | Structural view | Functional view   | Online Presence Meta-System meaning                                                                                                                                                                            |                                   |
 | --------------- | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
-| **Input**       | **Inference**     | Experience generated by operating the system: existing manifestations, recurring patterns, reviewer feedback, uncertainty, edge cases, failures, successful approaches, new source types, and lessons learned. |                                   |
-| **Output**      | **Design**        | The evolving form of the system: schemas, specifications, templates, heuristics, evidence models, validation structures, reusable patterns, and design changes.                                                | [specification](Specification.md) |
-| **Process**     | **Coordination**  | The ways observations, lessons, feedback, specifications, and proposed changes are related, compared, evaluated, validated, and integrated.                                                                    | [lifecycle](Lifecycle.md)         |
-| **Program**     | **Orchestration** | The governing logic that directs how manifestations are created and how the Meta-System evolves: principles, priorities, boundaries, routing rules, validation policies, dependencies, and cadence.            |                                   |
+| **Input**       | **Inference**     | Experience generated by operating the system: processed inputs, recurring patterns, reviewer feedback, uncertainty, edge cases, failures, successful approaches, new source types, and lessons learned. |                                   |
+| **Output**      | **Design**        | The evolving form of the system: schemas, specifications, templates, heuristics, evidence models, validation structures, reusable patterns, and design changes.                                                | [specification](specification.md) |
+| **Process**     | **Coordination**  | The ways observations, lessons, feedback, specifications, and proposed changes are related, compared, evaluated, validated, and integrated.                                                                    | [lifecycle](lifecycle.md)         |
+| **Program**     | **Orchestration** | The governing logic that directs how inputs are created and how the Meta-System evolves: principles, priorities, boundaries, routing rules, validation policies, dependencies, and cadence.            |                                   |
 | **Actors**      | **Execution**     | The humans and machine capabilities that operate and evolve the system: subject, researcher, curator, reviewer, agent, crawler, parser, API, validator, and other executable capabilities.                     |                                   |
 
 At this level, inference concerns the system itself.
@@ -84,7 +102,7 @@ At this level, inference concerns the system itself.
 For example:
 
 ```
-several manifestations reveal that
+several processed inputs reveal that
 repository activity alone can misrepresent a person's public presence
 
 → meta-system inference:
@@ -94,38 +112,21 @@ source importance depends on context and presence type
 introduce a source-selection heuristic and broader corroboration rules
 ```
 
-The resulting heuristic becomes part of the Meta-System and influences future manifestations.
+The resulting heuristic becomes part of the Meta-System and influences future inputs and model integrations.
 
-## Manifestation instantiation
+## Input-level lens contribution
 
-An individual Online Presence Manifestation is itself a complete instance of the same five-element system.
+An online-presence input does not instantiate a second person model. It records observations and routes them toward the existing person-level lenses.
 
-|Structural|Functional|Person's online-presence manifestation|
+|Person lens|What an online-presence observation may contribute|
 |---|---|---|
-|**Input**|**Inference**|**Public signals of what has shaped the person:** visible history, track record, past projects, education, experiences, previous roles, recurring topics, influences, references, and patterns across time.|
-|**Output**|**Design**|**Public signals of who the person is and what they give form to:** profiles, biographies, projects, writing, publications, talks, products, portfolios, positions, visual expression, stated values, and recurring identity patterns.|
-|**Process**|**Coordination**|**Public signals of how the person relates and interacts:** collaborations, conversations, communities, partnerships, contribution patterns, communication style, cross-domain activity, and recurring relational behaviour.|
-|**Program**|**Orchestration**|**Public signals of direction:** stated ambitions, current pursuits, recurring themes, emerging trajectories, strategic priorities, future-facing projects, and longer arcs visible across the public record.|
-|**Actors**|**Execution**|**Public signals of capability and action:** demonstrated skills, ways of working, methods, tools, shipped work, roles performed, contributions, execution patterns, and evidence of what the person can actually do.|
+| **Experience** | Observed history, contexts, prior roles, education, projects, influences, and recurring material across time. |
+| **Identity** | Explicit self-description, roles, values, worldview, positioning, style, and forms of expression. |
+| **Interaction** | Observed relationships, collaborations, communities, audiences, communication, and movement between contexts. |
+| **Growth** | Explicit direction, current pursuits, recurring questions, priorities, or trajectories visible in the material. |
+| **Behaviour** | Demonstrated work, capabilities in context, methods, tools, practices, contributions, and ways of working. |
 
-At this level, inference concerns the person being observed.
-
-For example:
-
-```
-GitHub repositories
-+ publications
-+ conference activity
-+ professional website
-
-→ manifestation inference:
-a recurring systems-architecture pattern is visible across several contexts
-
-→ manifestation design:
-represent that pattern with its evidence, provenance, boundaries, and uncertainty
-```
-
-The resulting pattern belongs to the manifestation, not to the Meta-System's own inference.
+These are contribution routes, not conclusions. The input records what is visible and where it may be useful; the person-first model determines what it means after comparison, validation, and integration.
 
 ## Input is a field, not merely a document
 
@@ -133,7 +134,7 @@ Within this model, Input should not be interpreted too narrowly as a file or doc
 
 Input represents what enters the system boundary and becomes available for inference.
 
-For an Online Presence Manifestation, this may include:
+For an online-presence input, this may include:
 
 - individual source documents;
     
@@ -166,45 +167,16 @@ For an Online Presence Manifestation, this may include:
 
 A document is therefore one possible carrier of input, not the definition of Input itself.
 
-Likewise, at the Meta-System level, individual public sources are generally not the primary Input. The relevant Input is the experience generated through producing, reviewing, maintaining, and comparing manifestations.
+Likewise, at the Meta-System level, individual public sources are generally not the primary Input. The relevant Input is the experience generated through producing, reviewing, maintaining, and comparing online-presence inputs and model integrations.
 
-## Recursive system boundaries
+## System boundaries
 
-The same object can occupy different positions depending on the system boundary being observed.
+The person-first Model is the canonical place where validated observations become statements about Yves. The online-presence input remains evidence-bearing and reversible. The Meta-System learns from processing experience, not by treating each input as a self-contained model.
 
-An Online Presence Manifestation is:
-
-- an **Output / Design** of the Online Presence Meta-System;
-    
-- while simultaneously being a complete five-element system internally.
-    
+Outputs are downstream views. They may compress, select, and express the model differently, but they do not replace it.
 
 ```
-ONLINE PRESENCE META-SYSTEM
-
-Inference / Input
-Design / Output ───────────────► Online Presence Manifestation
-Coordination / Process                         │
-Orchestration / Program                        │ contains
-Execution / Actors                             ▼
-
-                                  ONLINE PRESENCE MANIFESTATION
-
-                                  Inference / Input
-                                  Design / Output
-                                  Coordination / Process
-                                  Orchestration / Program
-                                  Execution / Actors
-```
-
-This is not a contradiction.
-
-It reflects a recursive system boundary: an output of one system may itself contain another complete system.
-
-Likewise, outputs from individual manifestations may later become Input for the Meta-System when they reveal recurring lessons, weaknesses, patterns, or opportunities for improvement.
-
-```
-many manifestations
+many processed inputs
         ↓
 experience and recurring patterns
         ↓
@@ -214,5 +186,5 @@ Meta-System Design
         ↓
 improved specifications, heuristics, and governance
         ↓
-future manifestations
+future inputs and model integrations
 ```

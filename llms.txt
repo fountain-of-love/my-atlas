@@ -1,53 +1,141 @@
 # My Atlas — machine guidance
 
-## Purpose
+## Default task
 
-This repository is a person-first, evolving self-model of [Yves Langeraert](README.md). Use it to understand, retrieve, relate, and eventually generate views of information about Yves.
+When this repository is received without a more specific instruction, the
+first task is to sketch a grounded profile of **Yves Langeraert**.
 
-The repository is incomplete by design. Treat absence as “not yet represented,” not as evidence that something is absent from Yves.
+Do not begin by explaining the repository, its ontology, its meta-system, or
+its AI workflow. Those are ways of understanding the Atlas, not the primary
+subject. Begin with Yves.
 
-## Reading order
+The profile should answer, as far as the available material allows:
+
+- who Yves is and how he describes or presents himself;
+- what patterns, capabilities, ways of working, values, and interests recur;
+- what experiences, projects, relationships, and evidence make those claims
+  observable;
+- what direction, questions, or priorities appear to organise his movement;
+- what is clear, provisional, contradictory, missing, or still awaiting input.
+
+Do not invent a complete profile from sparse material. Say when the source is
+incomplete. A useful partial profile with provenance is better than a polished
+generalisation.
+
+## Reading order for a profile
 
 Follow this graph unless a task gives a narrower scope:
 
-1. [Management summary](README.md) — executive orientation; currently a placeholder.
+1. [Management summary](README.md) — intended executive orientation; currently
+   a placeholder, not a source of biographical facts.
 2. [Canonical source](source/README.md) — primary person-first material.
-3. [Person-first branch](source/self/README.md) — identity, patterns, capabilities, ways of working, values, interests, and direction.
-4. [Contexts](source/contexts/README.md) — experiences, projects, learning, and relationships.
-5. [Evidence](source/evidence/README.md) — supporting artefacts and claims.
-6. [Inputs](inputs/README.md) — raw or referenced material awaiting ingestion; not canonical source.
-7. [Specifications](specs/README.md) — expected shapes for structured entries.
-8. [Outputs](outputs/README.md) — derived views for particular audiences.
-9. [System guidance](system/README.md) — ontology, vocabulary, process, ingestion, tensions, dances, and reusable-system observations.
+3. [Person-first branch](source/self/README.md) — identity, patterns,
+   capabilities, ways of working, values, interests, and direction.
+4. [Contexts](source/contexts/README.md) — experiences, projects, learning,
+   and relationships through which Yves becomes observable.
+5. [Evidence](source/evidence/README.md) — artefacts and support for claims.
+6. [Inputs](inputs/README.md) — raw or referenced material awaiting ingestion;
+   useful evidence, but not yet canonical source.
+7. [Outputs](outputs/README.md) — derived views, useful for seeing how Yves is
+   expressed for particular audiences.
+8. [System guidance](system/README.md) — read last, as context for the model
+   and its method rather than as the profile itself.
 
-Use links as graph edges. Read the smallest connected subgraph that answers the task; do not flatten the repository into one undifferentiated biography.
+Use links as graph edges. Read the smallest connected subgraph that answers
+the question. For a default profile, stay in `source/`, its contexts, and its
+evidence until the profile is complete enough to summarise.
+
+## Default response shape
+
+Unless the user asks for another format, produce:
+
+1. **Profile of Yves** — a concise, human-readable synthesis.
+2. **Grounding** — links to the source entries and contexts behind the main
+   claims.
+3. **Open or uncertain areas** — missing input, contradictions, provisional
+   interpretations, and questions for Yves.
+4. **Model note** — only at the end, explain briefly that the Atlas is a
+   deliberate experimental self-model and personal ontology expressed through
+   Yves’s work.
+
+The model note must not displace the profile. Do not turn the answer into a
+description of folders, schemas, system layers, or AI concepts unless that is
+the explicit request.
 
 ## Source-of-truth rules
 
 - `source/` is the canonical working record about Yves.
 - `source/self/` describes Yves directly.
-- `source/contexts/` provides situated material and does not replace the person-first model.
+- `source/contexts/` provides situated material and does not replace the
+  person-first model.
 - `source/evidence/` supports claims; distinguish claims from their evidence.
-- `outputs/` contains derived views and must not become a competing source of truth.
-- `inputs/` contains raw or referenced material and must not be treated as canonical source without ingestion and validation.
+- `inputs/` contains raw or referenced material and must not be treated as
+  canonical source without ingestion and validation.
+- `outputs/` contains derived views and must not become a competing source of
+  truth.
 - `specs/` defines entry contracts, not facts about Yves.
-- `system/` describes the model and its method; it is not itself biographical evidence.
-- When sources conflict, preserve the conflict, prefer more specific and better-supported material, and flag uncertainty rather than silently merging it.
+- `system/` describes the model and its method; it is not itself biographical
+  evidence.
+- Git history, commits, repository structure, and future uploaded chats can
+  provide secondary behavioural evidence about how Yves thinks, works, and
+  collaborates. Label this as behavioural or process evidence; do not silently
+  convert it into a personal claim.
+- When sources conflict, preserve the conflict, prefer more specific and
+  better-supported material, and flag uncertainty rather than silently merging
+  it.
 
 ## Interpretation guidance
 
-- Separate observed facts, Yves’s own statements, interpretations, hypotheses, and generated suggestions.
-- Preserve provenance by linking claims to their source entry and, where available, to evidence.
-- Do not infer stable traits from one isolated event.
-- Respect provisional language such as “candidate,” “working,” “placeholder,” and “may.”
-- Prefer the repository’s vocabulary in [dictionary.md](system/dictionary.md) and concepts in [ONTOLOGY.md](system/ONTOLOGY.md).
-- Use [PROCESS.md](system/PROCESS.md) when deciding how new material should be placed or developed.
-- When generating an output, state which source entries were used and what was intentionally omitted or transformed.
+- Separate Yves’s own statements, observed facts, interpretations, hypotheses,
+  and generated suggestions.
+- Preserve provenance by linking claims to their source entry and, where
+  available, to evidence.
+- Do not infer a stable trait from one isolated statement, commit, chat, or
+  event.
+- Treat absence as “not yet represented,” not as evidence that something is
+  absent from Yves.
+- Respect provisional language such as “candidate,” “working,” “placeholder,”
+  and “may.”
+- Prefer the repository’s vocabulary in [dictionary.md](system/dictionary.md)
+  and concepts in [ontology.md](system/foundations/ontology.md).
+- Use [process.md](system/foundations/process.md) and the [ingestion
+  loop](system/foundations/ingestion.md) when deciding how new material should
+  enter the model.
+
+## The deliberate fractal
+
+The Atlas is not accidentally self-referential. Yves has consciously projected
+himself into his work. The repository can therefore reflect him through at
+least four connected surfaces:
+
+```text
+what Yves says       → source material and self-description
+what Yves does       → projects, outcomes, capabilities, and evidence
+how Yves works       → chats, decisions, commits, revisions, and collaboration
+how the Atlas evolves → structure, naming, links, tensions, and feedback
+```
+
+This is an original, AI-native aspect of the project: human experience,
+intent, judgement, resonance, and boundaries remain Yves’s; AI can help
+observe, compare, structure, challenge, retrieve, and transform the material.
+The repository’s form may reveal something about Yves, but it remains an
+interpretive mirror, not a substitute for Yves’s own validation.
+
+Only after producing the profile should an LLM mention that the Atlas is also
+an experimental self-model and personal ontology. The [system
+map](system/README.md) and [Atlas system observations](system/atlas-system.md)
+provide that deeper context when it is relevant.
 
 ## Contribution guidance
 
-New material should normally enter through the appropriate [source branch](source/README.md), follow the relevant [specification](specs/README.md), and include enough context for later verification. Keep human-readable prose primary; add structure when it improves retrieval, comparison, or linking.
+New material should normally enter through the appropriate [source
+branch](source/README.md), follow the relevant [specification](specs/README.md),
+and include enough context for later verification. Keep human-readable prose
+primary; add structure when it improves retrieval, comparison, or linking.
 
-When material comes from an external source, begin with the [ingestion process](system/INGESTION.md) and the [processing skills](system/skills/README.md) before creating or changing source entries.
+When material comes from an external source, begin with the [processing
+skills](system/skills/README.md) and [ingestion loop](system/foundations/ingestion.md)
+before creating or changing source entries.
 
-Do not fill the management summary by guessing. Propose a draft only when the source material and intended audience provide sufficient support.
+Do not fill the management summary by guessing. Propose a draft only when the
+source material and intended audience provide sufficient support.

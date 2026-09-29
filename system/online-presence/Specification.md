@@ -11,7 +11,7 @@ Use minimal front matter to describe the file itself:
 
 ```yaml
 ---
-type: online-presence-result
+type: online-presence-input
 subject: "[[Person]]"
 captured: YYYY-MM-DD
 status: discovery-result
@@ -68,24 +68,28 @@ The vocabulary is open enough to support different media. For example,
 `source-type:: repository-profile`, `source-type:: artist-profile`,
 `source-type:: publication`, and `source-type:: portfolio` may all be valid.
 
-### 4. Evidence and interpretation
+### 4. Evidence and lens contribution
+
+Keep the input observational. Record what the source contains and which
+person-level lenses it may contribute to, without forming the person-level
+claim in the input itself.
 
 Keep these levels visibly distinct:
 
 ```text
-source → observation → claim → inference → validated knowledge
+source → observation → lens contribution → model candidate → validated knowledge
 ```
 
 - **Source**: where the material came from.
 - **Observation**: what the source directly contains or establishes.
-- **Claim**: a statement the Atlas may tentatively make.
-- **Inference**: a meaning or pattern derived across observations.
+- **Lens contribution**: the person-level lens or lenses to which an observation may be relevant.
+- **Model candidate**: a provisional statement created later during ingestion into `source/`.
 - **Validated knowledge**: a claim accepted after appropriate checking, ideally
   including validation by the subject where personal meaning is involved.
 
-Never let an inference silently become an observation. Use qualifiers such as
-`candidate`, `possible`, `unresolved`, `corroborated`, and `validated` where
-they materially change the meaning.
+Never let a lens contribution silently become a claim. Use qualifiers such as
+`possible`, `unresolved`, `corroborated`, and `validated` where they materially
+change the meaning.
 
 ### 5. Program, process, and execution
 
@@ -110,21 +114,22 @@ subject for validation, and a curator for integration. An agent may extract
 observations but not validate personal meaning. These are execution contracts,
 not claims about the subject's public identity.
 
-### 6. Lessons and candidate knowledge
+### 6. Lens contribution map
 
-Describe what the field reveals about the subject, but keep conclusions
-proportional to the evidence. This section may contain:
+Map observations to the person-level lenses without interpreting the person.
+This section may contain:
 
-- recurring themes or patterns;
-- candidate capabilities, interests, values, or ways of working;
-- relationships worth investigating;
-- contradictions or changes over time;
-- lessons about the source material itself;
-- questions that cannot yet be answered.
+- observations that may contribute to **Experience**;
+- explicit expressions that may contribute to **Identity**;
+- observed relationships or collaborations that may contribute to **Interaction**;
+- explicit directions or recurring time-based signals that may contribute to **Growth**;
+- demonstrated work or practices that may contribute to **Behaviour**;
+- uncertainty, contradiction, or missing evidence affecting the route.
 
-Phrase these as routes into the canonical model, not as a finished biography.
-For example, prefer `candidate-domain:: data architecture` over an
-unsupported definitive capability claim.
+Use fields such as `lens-contribution:: Experience` or
+`lens-contribution:: Behaviour` next to the relevant observation. Phrase the
+entry as an observation and route, not as a finished biography or capability
+claim. Interpretation belongs in the person-first model during ingestion.
 
 ### 7. Boundaries and uncertainty
 
@@ -180,7 +185,7 @@ for domain-specific detail.
 The recommended order is:
 
 ```text
-broad → contextual → evidential → interpretive → operational
+broad → contextual → evidential → lens-routed → operational
 ```
 
 A reader may stop after the overview; an investigator can continue into
@@ -192,10 +197,10 @@ Prose carries meaning and nuance. Inline fields make important entities,
 relationships, provenance, and state inspectable. Neither should be allowed to
 replace the other.
 
-### Reversible interpretation
+### Reversible routing
 
-Keep candidate interpretations easy to revise or withdraw. Prefer links to
-deeper concepts over absorbing every concept into this file. Preserve empty or
+Keep lens contributions easy to revise or withdraw. Prefer links to deeper
+concepts over absorbing interpretation into this file. Preserve empty or
 unknown fields rather than manufacturing completeness.
 
 ### One source of truth
@@ -208,7 +213,7 @@ CVs, or portfolio pages should be views generated from that source.
 
 ```markdown
 ---
-type: online-presence-result
+type: online-presence-input
 subject: "[[Person]]"
 captured: YYYY-MM-DD
 status: discovery-result
@@ -224,19 +229,19 @@ confidence.
 Describe platforms, works, organisations, projects, audiences, and domains.
 Keep relationship and identity status explicit.
 
-## Evidence and interpretation
+## Evidence and lens contribution
 
-Separate sources, observations, claims, inferences, and validated knowledge.
+Separate sources, observations, lens contributions, and processing state.
 
 ## Program, process, and execution
 
 Record scope, priority, stage, roles, skills, permissions, and the next
 scheduled actions.
 
-## Lessons and candidate knowledge
+## Lens contribution map
 
-Record recurring patterns, promising routes, changes, contradictions, and open
-questions.
+Record which observations may contribute to Experience, Identity, Interaction,
+Growth, or Behaviour. Do not form the person-level interpretation here.
 
 ## Boundaries
 

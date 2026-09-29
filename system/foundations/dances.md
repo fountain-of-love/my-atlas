@@ -4,7 +4,7 @@ This document is a shared placeholder for movements that begin to coexist as the
 
 ## Compass context
 
-The dances are observed within the [working compass](TENSIONS.md#working-compass): Formation (Emergence ↔ Containment) crossed with Orientation (Reflection ↔ Expression). The compass describes the field; this document follows the movements that traverse it.
+The dances are observed within the [working compass](tensions.md#working-compass): Formation (Emergence ↔ Containment) crossed with Orientation (Reflection ↔ Expression). The compass describes the field; this document follows the movements that traverse it.
 
 ## Roles in the field
 

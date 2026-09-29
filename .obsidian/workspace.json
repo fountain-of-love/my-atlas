@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "system/Self-model.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Self-model"
+              "title": "README"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "system/Self-model.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "system/Self-model.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "system/Self-model.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,41 +190,41 @@
   },
   "active": "2c991ace98e83d2f",
   "lastOpenFiles": [
-    "system/online-presence/README.md",
+    "inputs/online-presence.md",
+    "system/README.md",
+    "system/foundations/README.md",
+    "system/online-presence/specification.md",
+    "system/online-presence/lifecycle.md",
+    "system/online-presence/evaluation.md",
+    "system/TENSIONS.md",
+    "system/foundations/tensions.md",
+    "system/foundations/self-model.md",
+    "system/foundations/process.md",
+    "system/foundations/ontology.md",
+    "system/foundations/ingestion.md",
+    "system/foundations/direction.md",
+    "system/foundations/dances.md",
+    "system/foundations",
+    "system/PROCESS.md",
+    "system/ONTOLOGY.md",
+    "system/INGESTION.md",
+    "system/DIRECTION.md",
+    "system/DANCES.md",
+    "README.md",
     "system/Self-model.md",
+    "system/online-presence/README.md",
     "system/online-presence/Lifecycle.md",
     "system/online-presence/Evaluation.md",
     "system/online-presence/Specification.md",
-    "README.md",
     "system/online-presence",
-    "inputs/online-presence.md",
     "system/skills/provenance-weaving.md",
-    "system/skills/signal-extraction.md",
-    "system/skills/source-cartography.md",
-    "system/skills/README.md",
     "system/skills",
-    "system/INGESTION.md",
-    "inputs/README.md",
     "inputs",
     "llms.txt",
-    "outputs/README.md",
-    "source/README.md",
-    "specs/README.md",
-    "system/README.md",
-    "specs/project.md",
-    "atlas-system.md",
-    "system/dictionary.md",
-    "system/atlas-system.md",
-    "system/TENSIONS.md",
-    "system/PROCESS.md",
-    "system/ONTOLOGY.md",
-    "system/DIRECTION.md",
-    "system/DANCES.md",
     "system",
     "source/evidence",
     "source/contexts/relationships",
     "source/contexts/learning",
-    "source/contexts/projects",
-    "source/contexts/experiences"
+    "source/contexts/projects"
   ]
 }

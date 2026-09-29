@@ -8,7 +8,7 @@ This is the practical process for developing the Atlas while keeping the field o
 
 The sequence is a working grammar rather than a fixed pipeline. The process itself is part of the model: we are applying this evolution while observing and documenting it.
 
-When existing material is being brought into the Atlas, use the more specific [ingestion loop](INGESTION.md) rather than copying source documents directly into the self-model.
+When existing material is being brought into the Atlas, use the more specific [ingestion loop](ingestion.md) rather than copying source documents directly into the self-model.
 
 ## The fishbone
 

@@ -100,13 +100,13 @@ The resulting heuristic becomes part of the Meta-System and influences future ma
 
 An individual Online Presence Manifestation is itself a complete instance of the same five-element system.
 
-|Structural view|Functional view|Individual manifestation meaning|
+|Structural|Functional|Person's online-presence manifestation|
 |---|---|---|
-|**Input**|**Inference**|The publicly observable field concerning this person: source content, relations, chronology, repetition, absence, metadata, context, contradictions, communities, organisations, and other relevant signals.|
-|**Output**|**Design**|The structured representation of the person's public presence: observations, patterns, candidate claims, evidence relationships, contexts, uncertainty, and navigation.|
-|**Process**|**Coordination**|The transformations and relationships involved in producing the manifestation: discovery, inspection, comparison, corroboration, interpretation, validation, integration, and revision.|
-|**Program**|**Orchestration**|The configured investigation logic for this manifestation: scope, priorities, source strategy, validation rules, routing rules, dependencies, boundaries, and cadence.|
-|**Actors**|**Execution**|The humans and machine capabilities performing the work: researcher, subject, reviewer, curator, agent, crawler, API, parser, validator, and other relevant capabilities.|
+|**Input**|**Inference**|**Public signals of what has shaped the person:** visible history, track record, past projects, education, experiences, previous roles, recurring topics, influences, references, and patterns across time.|
+|**Output**|**Design**|**Public signals of who the person is and what they give form to:** profiles, biographies, projects, writing, publications, talks, products, portfolios, positions, visual expression, stated values, and recurring identity patterns.|
+|**Process**|**Coordination**|**Public signals of how the person relates and interacts:** collaborations, conversations, communities, partnerships, contribution patterns, communication style, cross-domain activity, and recurring relational behaviour.|
+|**Program**|**Orchestration**|**Public signals of direction:** stated ambitions, current pursuits, recurring themes, emerging trajectories, strategic priorities, future-facing projects, and longer arcs visible across the public record.|
+|**Actors**|**Execution**|**Public signals of capability and action:** demonstrated skills, ways of working, methods, tools, shipped work, roles performed, contributions, execution patterns, and evidence of what the person can actually do.|
 
 At this level, inference concerns the person being observed.
 

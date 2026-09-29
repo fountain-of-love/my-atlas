@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "inputs/online-presence.md",
+                "file": "system/online-presence/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "online-presence"
+              "title": "README"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "inputs/online-presence.md",
+                "file": "system/online-presence/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "inputs/online-presence.md",
+                "file": "system/online-presence/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "inputs/online-presence.md",
+                "file": "system/online-presence/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,7 +190,12 @@
   },
   "active": "2c991ace98e83d2f",
   "lastOpenFiles": [
+    "system/online-presence/Lifecycle.md",
+    "system/online-presence/Evaluation.md",
+    "system/online-presence/README.md",
+    "system/online-presence/Specification.md",
     "README.md",
+    "system/online-presence",
     "inputs/online-presence.md",
     "system/skills/provenance-weaving.md",
     "system/skills/signal-extraction.md",
@@ -216,15 +221,10 @@
     "system/DANCES.md",
     "system",
     "source/contexts/README.md",
-    "source/self/README.md",
-    "specs/person-pattern.md",
-    "specs/experience.md",
-    "specs/capability.md",
     "source/evidence",
     "source/contexts/relationships",
     "source/contexts/learning",
     "source/contexts/projects",
-    "source/contexts/experiences",
-    "source/contexts"
+    "source/contexts/experiences"
   ]
 }

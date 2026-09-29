@@ -1,148 +1,382 @@
 ---
-type: online-presence-result
-subject: Yves Langeraert
+type: online-presence
+subject: "[[Yves Langeraert]]"
+status: processed
+validated-by-subject: false
+source-entries-created: false
+evidence-objects-created: false
+claims-extracted: false
+relationships-extracted: partial
+next-step: select-one-source-for-deep-ingestion
 captured: 2026-09-29
-status: discovery-result
-identity_confidence: high
 ---
 
 # Online presence
 
-This is a structured snapshot of publicly discoverable material associated with Yves Langeraert. It is an input result: human-readable for review and explicit enough for later machine processing.
+[[Yves Langeraert]] has a public presence spanning professional technology work, healthcare data, research, software, artificial intelligence, and organizational projects.
 
-It records public profiles, research traces, organizational connections, and identity boundaries. It does not interpret the presence on Yves’s behalf.
+The available material connects him particularly strongly with [[Leuven]], [[KU Leuven]], [[Doclr]], and [[Vioras]], while more recent public material connects him with [[Fountain of Love]] and a broader ecosystem concerned with technology, language, AI, governance, and human collaboration.
 
-## Identity anchor
+His online presence is not concentrated in a single profile. It is distributed across professional and research profiles, publications, organizational material, public writing, and software projects. Taken together, these sources form a recognizable public identity, while also leaving important questions about individual contributions and capabilities that require deeper investigation.
 
-The supplied profile URLs and the connected research, technology, and organizational references form a coherent identity cluster around:
+This document maps observable online presence. It distinguishes what is directly visible from what the material may eventually allow us to understand.
 
-- Yves Langeraert;
-- Leuven, Belgium;
-- KU Leuven;
-- Doclr and Vioras;
-- Fountain of Love;
-- public work involving data, healthcare technology, AI, architecture, and research.
+## At a glance
 
-This cluster is kept separate from the golf-professional identity with the same name.
+presence:: professional
+presence:: research
+presence:: healthcare-technology
+presence:: healthcare-data
+presence:: software
+presence:: artificial-intelligence
+presence:: organizational
+presence:: public-writing
 
-## Public profiles
+The strongest visible contexts are:
+
+- professional activity around [[Doclr]] and [[Vioras]];
+- research and healthcare-data work connected with [[KU Leuven]];
+- public interest and activity around software, data, AI, and architecture;
+- organizational and project activity around [[Fountain of Love]];
+- public technical writing and open-source material.
+
+The public presence also contains an important identity boundary: search material for a golf professional with the same name should not be merged into this identity.
+
+## Professional and research presence
 
 ### LinkedIn
 
-- **URL:** <https://www.linkedin.com/in/yveslangeraert/>
-- **Type:** personal professional profile
-- **Identity status:** supplied by Yves; primary online identity anchor
-- **Observed associations:** Fountain of Love, Leuven, KU Leuven, public articles, AI-related writing, technical and data-related education or certifications
-- **Processing value:** current public expression, self-positioning, activity, project links, and social context
+[[LinkedIn]] presents a professional identity associated with [[Yves Langeraert]].
+
+source-id:: online-linkedin
+source-type:: professional-profile
+source-url:: https://www.linkedin.com/in/yveslangeraert/
+identity-status:: supplied-primary
+subject:: [[Yves Langeraert]]
+
+The profile is particularly useful as an expression of current public positioning: professional associations, projects, interests, writing, education, and visible activity.
+
+Observed associations include [[Fountain of Love]], [[Leuven]], [[KU Leuven]], AI-related writing, and technical and data-related education or certifications.
 
 ### ResearchGate
 
-- **URL:** <https://www.researchgate.net/profile/Yves-Langeraert>
-- **Type:** research profile
-- **Identity status:** strong match; profile names Yves Langeraert and associates him with KU Leuven, Department of Computer Science, Leuven
-- **Listed expertise:** machine learning, pattern recognition, feature extraction, data clustering, machine intelligence, applied artificial intelligence, prediction, advanced machine learning, classification, supervised learning
-- **Processing value:** research identity, technical vocabulary, publications, and connections to the Vioras/Doclr research footprint
+[[ResearchGate]] provides a separate research-oriented presence.
+
+source-id:: online-researchgate
+source-type:: research-profile
+source-url:: https://www.researchgate.net/profile/Yves-Langeraert
+identity-status:: strong-match
+subject:: [[Yves Langeraert]]
+institution:: [[KU Leuven]]
+department:: [[Computer Science]]
+
+The profile associates Yves with terminology including machine learning, pattern recognition, feature extraction, data clustering, machine intelligence, applied artificial intelligence, prediction, classification, and supervised learning.
+
+These terms describe the vocabulary and expertise associated with the public research profile. They should not automatically be interpreted as independently validated capability claims.
 
 ### Deep Transformation Network
 
-- **URL:** <https://deeptransformation.network/members/35523872>
-- **Type:** membership profile
-- **Identity status:** supplied by Yves; page content was not substantially readable to the web crawler
-- **Processing value:** likely useful for understanding current community affiliation and public positioning; requires direct review or additional accessible source material
+[[Deep Transformation Network]] provides a membership profile associated with Yves.
 
-## Vioras and Doclr research trace
+source-id:: online-deep-transformation
+source-type:: membership-profile
+source-url:: https://deeptransformation.network/members/35523872
+identity-status:: supplied-pending-review
+subject:: [[Yves Langeraert]]
 
-### Research profile and paper
+The page was not substantially readable to the web crawler. Its relationship to the broader public identity remains a follow-up item rather than a developed claim.
 
-- **Publication:** [Burden of COVID-19 on Primary Care: a Prospective Nationwide Observational Study](https://www.researchgate.net/publication/352472298_Burden_of_COVID-19_on_Primary_Care_a_Prospective_Nationwide_Observational_Study)
-- **Date:** May 2021 preprint record
-- **Research context:** nationwide monitoring of Belgian primary care during the first COVID-19 wave
-- **Observed technical context:** structured electronic forms integrated into general-practice electronic medical records; reporting and visualisation for GP circles, primary-care zones, and policy makers
-- **Vioras reference:** the paper identifies Vioras as creating questions for the monitoring instrument and describes Vioras reports and visualisations used to identify support needs
-- **Yves reference:** the acknowledgements name “Yves Langeraert (Vioras, Doclr)”
-- **Processing value:** strong evidence for a context involving data architecture, health-data infrastructure, monitoring, visualisation, and multi-level decision support
+## Healthcare, data, and technology
 
-### Supporting public references
+One of the clearest public contexts around Yves is the intersection of healthcare, data, and technology.
 
-- [COVID barometer document](https://www.frankrobben.be/wp-content/uploads/2020/03/Dagelijkse-barometer-COVID-19-huisartsen-triageposten-rusthuizen.pdf) identifies “Yves Langeraert, data architect” for Doclr and Vioras.
-- [Parliamentary record](https://www.dekamer.be/doc/CCRI/html/55/ic523x.html) describes Yves Langeraert and Niels Schroyen as Doclr directors and records Yves’s shareholding at the time discussed.
-- [Primary-care technology article](https://gbiomed.kuleuven.be/english/research/50000715/spotlightfolder/medischeinnovatie-demorgen-2018.pdf) presents Yves Langeraert as co-managing director of Doclr and discusses online scheduling, primary-care coordination, data, privacy, and possible AI-supported routing.
-- [Doclr website](https://www.doclr.be/) provides the product context: online scheduling for medical practices, campaigns, organizations, and entrepreneurs, with emphasis on data protection and integrations.
+### Doclr and Vioras
 
-## Other public writing
+[[Doclr]] and [[Vioras]] form an important part of the public technology footprint.
 
-- [Medium article comment](https://medium.com/%40tankske/im-particulary-interested-in-how-you-ve-established-the-di-for-the-repository-cddc55405932) is attributed to Yves Langeraert and concerns dependency injection and repository architecture in an Angular application.
-- [Fountain of Love LinkedIn page](https://be.linkedin.com/company/fountain-of-love) presents an organizational context involving sovereignty, trustworthiness, emotional clarity, responsible AI fluency, living language, governance, and co-creation.
-- [Fountain of Love GitHub profile](https://github.com/fountain-of-love) links to a project ecosystem including `operating-model`, `mml-machine-modelled-language`, `spiral-algo-to-polar-algebra-evolution`, `living-mathematics-library`, `py-wordless-meaning`, `fibonacci-blueprint`, `gemstones`, and `py-crystal-seed`.
+relationship:: professional-context
+relationship:: research-context
+domain:: healthcare-technology
+domain:: healthcare-data
 
-## Machine-readable source index
+A 2021 publication, [[Burden of COVID-19 on Primary Care]], describes a nationwide monitoring effort involving Belgian primary care.
 
-```yaml
-identity:
-  name: Yves Langeraert
-  location: Leuven, Belgium
-  confidence: high
+source-id:: research-burden-covid-primary-care
+source-type:: publication
+source-url:: https://www.researchgate.net/publication/352472298_Burden_of_COVID-19_on_Primary_Care_a_Prospective_Nationwide_Observational_Study
+source-date:: 2021-05
+subject:: [[Yves Langeraert]]
+context:: [[Vioras]]
+context:: [[Doclr]]
+context:: [[KU Leuven]]
 
-profiles:
-  - id: online-linkedin
-    type: professional-profile
-    url: https://www.linkedin.com/in/yveslangeraert/
-    status: supplied-primary
-  - id: online-researchgate
-    type: research-profile
-    url: https://www.researchgate.net/profile/Yves-Langeraert
-    status: strong-match
-  - id: online-deep-transformation
-    type: membership-profile
-    url: https://deeptransformation.network/members/35523872
-    status: supplied-pending-review
+The research system used structured electronic forms integrated into general-practice electronic medical records, together with reporting and visualisation for GP circles, primary-care zones, and policy makers.
 
-contexts:
-  - id: context-doclr-vioras
-    type: technology-healthcare
-    entities: [Doclr, Vioras, KU Leuven, primary care]
-    evidence:
-      - https://www.researchgate.net/publication/352472298_Burden_of_COVID-19_on_Primary_Care_a_Prospective_Nationwide_Observational_Study
-      - https://www.frankrobben.be/wp-content/uploads/2020/03/Dagelijkse-barometer-COVID-19-huisartsen-triageposten-rusthuizen.pdf
-      - https://www.dekamer.be/doc/CCRI/html/55/ic523x.html
-  - id: context-fountain-of-love
-    type: organization-and-project-ecosystem
-    entity: Fountain of Love
-    evidence:
-      - https://be.linkedin.com/company/fountain-of-love
-      - https://github.com/fountain-of-love
+The publication refers to [[Vioras]] in connection with questions for the monitoring instrument and with reports and visualisations used to identify support needs. Its acknowledgements name Yves Langeraert in connection with [[Vioras]] and [[Doclr]].
 
-boundaries:
-  - exact-name-golf-professional
-  - search-result-snippet-without-provenance
-  - organizational-expression-not-yet-personal-claim
+This places Yves’s public presence in a concrete technological context involving:
+
+domain:: healthcare-data
+domain:: electronic-medical-records
+domain:: data-collection
+domain:: monitoring
+domain:: reporting
+domain:: visualisation
+domain:: decision-support
+
+The source establishes the context and association. It does not, by itself, establish the precise contribution of Yves to each component.
+
+### Supporting sources
+
+source-id:: covid-barometer
+source-type:: technical-document
+source-url:: https://www.frankrobben.be/wp-content/uploads/2020/03/Dagelijkse-barometer-COVID-19-huisartsen-triageposten-rusthuizen.pdf
+subject:: [[Yves Langeraert]]
+context:: [[Doclr]]
+context:: [[Vioras]]
+role-as-described:: data-architect
+
+source-id:: belgian-parliament-doclr
+source-type:: public-record
+source-url:: https://www.dekamer.be/doc/CCRI/html/55/ic523x.html
+subject:: [[Yves Langeraert]]
+context:: [[Doclr]]
+relationship:: director-and-shareholder-at-time-described
+
+source-id:: doclr-primary-care-article
+source-type:: article
+source-url:: https://gbiomed.kuleuven.be/english/research/50000715/spotlightfolder/medischeinnovatie-demorgen-2018.pdf
+subject:: [[Yves Langeraert]]
+context:: [[Doclr]]
+domain:: primary-care-technology
+topic:: online-scheduling
+topic:: data
+topic:: privacy
+topic:: AI-supported-routing
+
+source-id:: doclr-website
+source-type:: product-website
+source-url:: https://www.doclr.be/
+context:: [[Doclr]]
+domain:: online-scheduling
+domain:: data-protection
+domain:: healthcare-technology
+
+## Research and technical vocabulary
+
+A second layer of Yves’s public presence emerges from the vocabulary surrounding his research and technical activity.
+
+subject:: [[Yves Langeraert]]
+domain:: [[Machine learning]]
+domain:: [[Artificial intelligence]]
+domain:: [[Data]]
+domain:: [[Software architecture]]
+domain:: [[Healthcare technology]]
+
+Public material contains recurring references to machine learning, AI, data, software architecture, and healthcare technology.
+
+Some of these are directly evidenced by profiles or publications; others are candidate areas for deeper investigation.
+
+The distinction matters:
+
+```text
+public vocabulary
+    ↓
+source evidence
+    ↓
+validated knowledge
 ```
 
-## Candidate routing, not interpretation
+The presence of a technical term in a profile is evidence that the term occurs in that public context. It is not necessarily evidence that the person currently practices every technique represented by the vocabulary.
 
-This result points toward later source ingestion in these areas:
+## Organizational presence
 
-- **contexts:** Doclr/Vioras, KU Leuven, Fountain of Love, research, and public writing;
-- **possible capability evidence:** data architecture, health-data systems, machine learning, AI, software architecture, and research collaboration;
-- **possible ways-of-working evidence:** translating complex systems into usable infrastructure, connecting data to decisions, and working across technical and societal contexts;
-- **evidence objects:** papers, public profiles, repositories, articles, product material, and commit histories.
+### Fountain of Love
 
-These are routing suggestions only. They are not yet source claims about Yves and should be validated against the underlying material and Yves’s own account.
+[[Fountain of Love]] represents a different part of Yves’s public presence.
 
-## Negative space
+relationship:: organizational-context
+relationship:: project-context
+domain:: technology-and-society
+source-type:: organization
+source-url:: https://be.linkedin.com/company/fountain-of-love
 
-- A golf professional with the same name appears in search results and remains excluded from this identity cluster.
-- Search results and snippets are discovery aids, not canonical evidence.
-- Organizational material is not automatically personal material.
-- Acknowledgement in a paper does not by itself establish authorship or every aspect of contribution.
+Public organizational material uses concepts including sovereignty, trustworthiness, emotional clarity, responsible AI fluency, living language, governance, and co-creation.
+
+These concepts are relevant to understanding the ecosystem in which Yves appears publicly.
+
+They should nevertheless remain organizational concepts unless separately connected to Yves as an individual.
+
+This distinction prevents organizational language from silently becoming biographical claims.
+
+## Open-source ecosystem
+
+The [[Fountain of Love]] GitHub presence exposes a wider project ecosystem, including:
+
+project:: [[operating-model]]
+project:: [[mml-machine-modelled-language]]
+project:: [[spiral-algo-to-polar-algebra-evolution]]
+project:: [[living-mathematics-library]]
+project:: [[py-wordless-meaning]]
+project:: [[fibonacci-blueprint]]
+project:: [[gemstones]]
+project:: [[py-crystal-seed]]
+
+source-id:: fountain-of-love-github
+source-type:: repository-profile
+source-url:: https://github.com/fountain-of-love
+repository-association:: observed
+authorship:: not-yet-established
+conceptual-ownership:: not-yet-established
+
+These projects are potentially valuable routes into the technical and conceptual dimensions of the public presence. The repository ecosystem should therefore be treated as source evidence to investigate, rather than as a list of established personal achievements.
+
+## Public writing
+
+Another part of the online presence appears through public technical writing.
+
+[[Medium]] contains a comment attributed to Yves concerning dependency injection and repository architecture in an Angular application.
+
+source-id:: medium-di-comment
+source-type:: technical-writing
+source-url:: https://medium.com/%40tankske/im-particulary-interested-in-how-you-ve-established-the-di-for-the-repository-cddc55405932
+subject:: [[Yves Langeraert]]
+domain:: software-architecture
+topic:: dependency-injection
+topic:: repository-architecture
+technology:: Angular
+
+This provides a more concrete example of technical vocabulary appearing in public expression. It is potentially more informative than a generic profile keyword because it exposes Yves engaging with a specific technical problem.
+
+## Identity boundaries
+
+identity-confidence:: high
+
+The available sources form a coherent identity cluster around:
+
+entity:: [[Yves Langeraert]]
+entity:: [[Leuven]]
+entity:: [[KU Leuven]]
+entity:: [[Doclr]]
+entity:: [[Vioras]]
+entity:: [[Fountain of Love]]
+
+A separate golf professional with the same name appears in search results.
+
+identity-boundary:: same-name-golf-professional
+identity-boundary:: search-result-snippet
+identity-boundary:: organizational-expression
+identity-boundary:: contribution-inference
+
+The following distinctions should remain active throughout further processing:
+
+- Search snippets are discovery material, not canonical evidence.
+- Organizational statements are not automatically personal statements.
+- Acknowledgement is not equivalent to authorship.
+- Association with a project is not necessarily authorship or ownership.
 - Public availability does not imply permission to reproduce sensitive details.
-- The absence of a visible result does not establish the absence of a person, project, or capability.
+- Lack of a visible result does not establish absence.
 
-## Capture status
+## What this presence may tell us
 
-```yaml
-processed: true
-validated_by_yves: false
-source_entries_created: false
-next_step: select_one_research_or_github_source_for_deep_ingestion
+The current material suggests several promising directions for deeper investigation.
+
+candidate-domain:: [[Data architecture]]
+candidate-domain:: [[Healthcare technology]]
+candidate-domain:: [[Artificial intelligence]]
+candidate-domain:: [[Machine learning]]
+candidate-domain:: [[Software architecture]]
+candidate-domain:: [[Research]]
+candidate-domain:: [[Technology and society]]
+
+The most interesting question is not simply:
+
+> What skills does Yves have?
+
+but:
+
+> What recurring patterns of work, thinking, and system-building become visible when the individual sources are examined together?
+
+The current discovery result is not sufficient to answer that question. It does, however, identify the source material from which such an answer might eventually be constructed.
+
+## Evidence map
+
+The presence described above is grounded in several different types of evidence.
+
+### Primary identity sources
+
+source-type:: professional-profile
+source-type:: research-profile
+source-type:: membership-profile
+
+### Research sources
+
+source-type:: publication
+source-type:: research-context
+source-type:: acknowledgement
+
+### Organizational sources
+
+source-type:: organization
+source-type:: product
+source-type:: project
+source-type:: repository
+
+### Public expression
+
+source-type:: article
+source-type:: technical-writing
+source-type:: software
+
+Each source should eventually become its own evidence object where the distinction between source, observation, claim, and inference can be preserved.
+
+## Deeper investigation
+
+The next useful step is not to expand this document indefinitely. Instead, select one high-value source and descend into it.
+
+For example:
+
+```text
+[[Burden of COVID-19 on Primary Care]]
+    → source
+    → observations
+    → named entities
+    → relationships
+    → individual contribution
+    → technical systems
+    → evidence
+    → claims
 ```
+
+Or:
+
+```text
+[[gemstones]]
+    → repositories
+    → concepts
+    → specifications
+    → design principles
+    → relation to Yves’s public work
+```
+
+This document remains the map of the online presence. Deeper documents provide the evidence from which the map can evolve.
+
+## Processing state
+
+processed:: true
+validated-by-subject:: false
+source-entries-created:: false
+evidence-objects-created:: false
+claims-extracted:: false
+relationships-extracted:: partial
+next-step:: select-one-source-for-deep-ingestion
+
+## Source interface
+
+The document is both human-readable and machine-readable.
+
+At the beginning, prose provides orientation. As the document progresses, inline fields make entities, relationships, evidence types, and epistemic status increasingly explicit.
+
+The deepest sections are intended primarily for processing and navigation rather than first-pass reading.
+
+This structure is deliberate: the reader should encounter Yves first, the evidence second, and the mechanics of the knowledge system last.

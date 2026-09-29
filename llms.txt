@@ -1,0 +1,49 @@
+# My Atlas — machine guidance
+
+## Purpose
+
+This repository is a person-first, evolving self-model of [Yves Langeraert](README.md). Use it to understand, retrieve, relate, and eventually generate views of information about Yves.
+
+The repository is incomplete by design. Treat absence as “not yet represented,” not as evidence that something is absent from Yves.
+
+## Reading order
+
+Follow this graph unless a task gives a narrower scope:
+
+1. [Management summary](README.md) — executive orientation; currently a placeholder.
+2. [Canonical source](source/README.md) — primary person-first material.
+3. [Person-first branch](source/self/README.md) — identity, patterns, capabilities, ways of working, values, interests, and direction.
+4. [Contexts](source/contexts/README.md) — experiences, projects, learning, and relationships.
+5. [Evidence](source/evidence/README.md) — supporting artefacts and claims.
+6. [Specifications](specs/README.md) — expected shapes for structured entries.
+7. [Outputs](outputs/README.md) — derived views for particular audiences.
+8. [System guidance](system/README.md) — ontology, vocabulary, process, tensions, dances, and reusable-system observations.
+
+Use links as graph edges. Read the smallest connected subgraph that answers the task; do not flatten the repository into one undifferentiated biography.
+
+## Source-of-truth rules
+
+- `source/` is the canonical working record about Yves.
+- `source/self/` describes Yves directly.
+- `source/contexts/` provides situated material and does not replace the person-first model.
+- `source/evidence/` supports claims; distinguish claims from their evidence.
+- `outputs/` contains derived views and must not become a competing source of truth.
+- `specs/` defines entry contracts, not facts about Yves.
+- `system/` describes the model and its method; it is not itself biographical evidence.
+- When sources conflict, preserve the conflict, prefer more specific and better-supported material, and flag uncertainty rather than silently merging it.
+
+## Interpretation guidance
+
+- Separate observed facts, Yves’s own statements, interpretations, hypotheses, and generated suggestions.
+- Preserve provenance by linking claims to their source entry and, where available, to evidence.
+- Do not infer stable traits from one isolated event.
+- Respect provisional language such as “candidate,” “working,” “placeholder,” and “may.”
+- Prefer the repository’s vocabulary in [dictionary.md](system/dictionary.md) and concepts in [ONTOLOGY.md](system/ONTOLOGY.md).
+- Use [PROCESS.md](system/PROCESS.md) when deciding how new material should be placed or developed.
+- When generating an output, state which source entries were used and what was intentionally omitted or transformed.
+
+## Contribution guidance
+
+New material should normally enter through the appropriate [source branch](source/README.md), follow the relevant [specification](specs/README.md), and include enough context for later verification. Keep human-readable prose primary; add structure when it improves retrieval, comparison, or linking.
+
+Do not fill the management summary by guessing. Propose a draft only when the source material and intended audience provide sufficient support.

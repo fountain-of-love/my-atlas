@@ -100,7 +100,81 @@ complete capability or authorship.
 | Identity status | supplied primary |
 | Subject | [[Yves Langeraert]] |
 
-The profile is particularly useful as an expression of current public positioning: professional associations, projects, interests, writing, education, and visible activity.
+The profile is particularly useful as an expression of current public positioning:
+professional associations, projects, interests, writing, education, and visible
+activity. The direct LinkedIn page was not available to the crawler during this
+review, so the details below come from the publicly indexed profile snapshot
+and linked public posts.
+
+#### Profile snapshot
+
+The indexed profile presents:
+
+- display name: **Yves L**;
+- location: Leuven, Flemish Region, Belgium;
+- visible association: [[Fountain of Love]];
+- visible education association: [[KU Leuven]];
+- approximately 1,000 followers and more than 500 connections;
+- an About section opening with a lifelong longing for connection that does not
+  collapse.
+
+The indexed snapshot lists [[Fountain of Love]] in Experience. It also exposes
+several additional experience entries whose titles and organizations were not
+returned by the crawler, so those entries are not interpreted here.
+
+#### Education and credentials
+
+The public profile snapshot lists [[KU Leuven]] education spanning 2005–2011,
+as well as several data, analytics, programming, and architecture credentials:
+
+- Exploratory Data Analysis — Coursera, issued August 2016;
+- Big data — UGent IVPV, issued July 2015;
+- Getting and Cleaning Data — Coursera, issued March 2015;
+- Process Mining: Data science in Action — Coursera, issued January 2015;
+- R Programming — Coursera, issued November 2014;
+- The Data Scientist’s Toolbox — Coursera, issued September 2014;
+- TOGAF — The Open Group.
+
+The Courses section additionally lists Big data in de praktijk — Hands on
+Hadoop, Secure Coding in Java/JEE, Hacking Inside Out, HadoopSummit2015,
+Predictive analysis, QlikView design and development, SAS Base, and TOGAF
+enterprise architecture. These are profile-listed education and training
+items, not independent evidence of current practice.
+
+#### Public articles and activity
+
+The indexed profile lists recent public articles including:
+
+- *Bewust Kapitaalbeheer & Impact Ecosysteem* — 11 April 2026;
+- *Ons Soevereiniteitskompas* — 3 January 2026;
+- *Schaduwbotsing — Waarom Kleine Dingen Groot Worden* — 29 November 2025.
+
+Recent public activity visible through the profile includes:
+
+- a Fibonacci-inspired `xAO` framework for longer-horizon optimization of the
+  travelling-salesperson problem, linked to the
+  `spiral-algo-to-polar-algebra-evolution` repository;
+- a Python prototype exploring images as structured information containers;
+- a description of `py-crystal-seed` as a project foundation emphasizing
+  boundaries, reproducibility, testing, type checking, linting, packaging,
+  release management, documentation, observability, and recovery;
+- reflections on AI, human creativity, and the
+  `living-mathematics-library` repository;
+- public commentary on privacy rights, responsible disclosure, information
+  asymmetry, and institutional accountability;
+- personal and relational writing about integrity, emotional experience,
+  leadership, and humane interaction.
+
+These are observations about what the profile publishes or shares. They may
+route later investigation toward Identity, Growth, Behaviour, and Interaction,
+but they are not yet validated person-level conclusions.
+
+| Field | Value |
+| --- | --- |
+| Indexed profile snapshot | [Yves L on LinkedIn](https://be.linkedin.com/in/yveslangeraert) |
+| Profile search result | [LinkedIn result](https://www.linkedin.com/in/yveslangeraert/) |
+| Snapshot reviewed | 2026-09-29 |
+| Retrieval status | Direct profile fetch unavailable; public indexed snapshot reviewed |
 
 Observed associations include [[Fountain of Love]], [[Leuven]], [[KU Leuven]], AI-related writing, and technical and data-related education or certifications.
 

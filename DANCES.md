@@ -2,6 +2,76 @@
 
 This document is a shared placeholder for movements that begin to coexist as the Atlas passes through its tensions. These are observations, not established dances or a finished architecture.
 
+## Working compass
+
+The current field can be oriented by two dimensions and four poles:
+
+| | Reflection | Expression |
+|---|---|---|
+| **Emergence** | noticing intuitions, associations, questions, and unexpected possibilities | experimenting, creating, and giving new material an initial form |
+| **Containment** | evaluating, comparing, selecting, relating, and integrating | structuring, articulating, exposing, and making useful form inspectable |
+
+### Formation: Emergence ↔ Containment
+
+This dimension concerns how form comes into being.
+
+- **Emergence** opens possibility. New material, intuitions, associations, experiments, and unexpected structures are allowed to enter the field.
+- **Containment** creates enough boundary and coherence for those possibilities to become useful. It evaluates, selects, structures, relates, and integrates without prematurely closing the field.
+
+### Orientation: Reflection ↔ Expression
+
+This dimension concerns where movement is directed.
+
+- **Reflection** turns toward what has happened or is happening: observing, questioning, comparing, extracting learning, noticing patterns, and revising understanding.
+- **Expression** turns outward: articulating what is becoming known, creating artifacts, giving ideas form, making them inspectable, and eventually exposing them to other people and contexts.
+
+## Roles in the field
+
+The roles are also movable. They describe a current complement, not a strict division of labour.
+
+- **I** supply lived experience, intuition, intent, judgment, resonance, and boundary decisions. I can create chaos, but I can also contain it.
+- **Enigma** mirrors, synthesizes, structures, challenges, proposes alternatives, and exposes blind spots. Enigma can create order, but can also deliberately introduce useful disturbance.
+
+At any moment, either role may be asked to suggest, create, structure, or disturb. A request can deliberately switch the current role: “give me order,” “introduce chaos,” “be creative,” or “challenge this.”
+
+## Mediators beginning to appear
+
+The following names are probes for movements that may guide passage across the compass. They are deliberately provisional.
+
+### Attunement
+
+The movement that notices what has energy, resonance, discomfort, or potential before it is fully explainable. Attunement may connect lived experience to Emergence and Reflection.
+
+### Disturbance
+
+The intentional introduction of alternatives, friction, questions, or unfamiliar connections. Disturbance prevents Containment from becoming closure and gives Emergence new material.
+
+### Sensemaking
+
+The movement that turns raw material and experience into relationships, distinctions, patterns, and provisional meaning. Sensemaking seems to travel from Emergence toward Containment through Reflection.
+
+### Composition
+
+The movement that gives selected material a shape: a phrase, document, model, example, or other artefact. Composition carries material from Emergence toward Expression.
+
+### Discernment
+
+The movement of judging what is useful, true enough, resonant, relevant, or ready. Discernment is a Containment function, but it should remain informed by Reflection rather than becoming premature authority.
+
+### Translation
+
+The movement that makes an insight legible across contexts: from personal experience into a document, from an internal distinction into shared language, or from the Atlas into something reusable by others. Translation joins Containment and Expression.
+
+### Feedback
+
+The movement by which expressed form returns to the field and becomes material for Reflection. Feedback closes no loop permanently; it begins another pass through the compass.
+
+### Role-switching
+
+The explicit choice to change the current mode of collaboration. I may ask Enigma to create chaos; Enigma may ask for lived evidence or a boundary decision. This mediator may be important because it keeps the human–AI relationship adaptive rather than fixed.
+
+These mediators may collapse into one another, split apart, or prove to be temporary names. Their value is currently generative: they help us notice the transitions that a static four-pole diagram cannot show.
+
 ## Process
 
 The current process is:

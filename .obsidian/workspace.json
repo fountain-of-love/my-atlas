@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "inputs/online-presence.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "online-presence"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "inputs/online-presence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "inputs/online-presence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "inputs/online-presence.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -188,8 +188,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "2c991ace98e83d2f",
+  "active": "89d073c33c609ff8",
   "lastOpenFiles": [
+    "inputs/harvest.md",
+    "README.md",
     "inputs/online-presence.md",
     "system/README.md",
     "system/foundations/README.md",
@@ -210,14 +212,12 @@
     "system/INGESTION.md",
     "system/DIRECTION.md",
     "system/DANCES.md",
-    "README.md",
     "system/Self-model.md",
     "system/online-presence/README.md",
     "system/online-presence/Lifecycle.md",
     "system/online-presence/Evaluation.md",
     "system/online-presence/Specification.md",
     "system/online-presence",
-    "system/skills/provenance-weaving.md",
     "system/skills",
     "inputs",
     "llms.txt",

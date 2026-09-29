@@ -12,7 +12,7 @@ Inputs are not canonical source entries and are not outputs. They are evidence-b
 - `book/` — book drafts, chapters, notes, and related writing;
 - `other/` — material that does not yet have a clear home.
 
-The first guided external input is [online presence](online-presence.md). It records a three-pass web discovery process without turning public material into a finished interpretation.
+The first guided external input is [online presence](online-presence.md). It records a three-pass web discovery process without turning public material into a finished interpretation. Subject-supplied context that still needs to be integrated into the canonical source model is parked in [harvest](harvest.md) rather than mixed into public evidence.
 
 These groups are practical intake lenses, not ontology domains. The same input may reveal patterns, capabilities, ways of working, values, contexts, and evidence.
 

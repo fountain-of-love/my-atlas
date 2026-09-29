@@ -15,9 +15,10 @@ Follow this graph unless a task gives a narrower scope:
 3. [Person-first branch](source/self/README.md) — identity, patterns, capabilities, ways of working, values, interests, and direction.
 4. [Contexts](source/contexts/README.md) — experiences, projects, learning, and relationships.
 5. [Evidence](source/evidence/README.md) — supporting artefacts and claims.
-6. [Specifications](specs/README.md) — expected shapes for structured entries.
-7. [Outputs](outputs/README.md) — derived views for particular audiences.
-8. [System guidance](system/README.md) — ontology, vocabulary, process, tensions, dances, and reusable-system observations.
+6. [Inputs](inputs/README.md) — raw or referenced material awaiting ingestion; not canonical source.
+7. [Specifications](specs/README.md) — expected shapes for structured entries.
+8. [Outputs](outputs/README.md) — derived views for particular audiences.
+9. [System guidance](system/README.md) — ontology, vocabulary, process, ingestion, tensions, dances, and reusable-system observations.
 
 Use links as graph edges. Read the smallest connected subgraph that answers the task; do not flatten the repository into one undifferentiated biography.
 
@@ -28,6 +29,7 @@ Use links as graph edges. Read the smallest connected subgraph that answers the 
 - `source/contexts/` provides situated material and does not replace the person-first model.
 - `source/evidence/` supports claims; distinguish claims from their evidence.
 - `outputs/` contains derived views and must not become a competing source of truth.
+- `inputs/` contains raw or referenced material and must not be treated as canonical source without ingestion and validation.
 - `specs/` defines entry contracts, not facts about Yves.
 - `system/` describes the model and its method; it is not itself biographical evidence.
 - When sources conflict, preserve the conflict, prefer more specific and better-supported material, and flag uncertainty rather than silently merging it.
@@ -45,5 +47,7 @@ Use links as graph edges. Read the smallest connected subgraph that answers the 
 ## Contribution guidance
 
 New material should normally enter through the appropriate [source branch](source/README.md), follow the relevant [specification](specs/README.md), and include enough context for later verification. Keep human-readable prose primary; add structure when it improves retrieval, comparison, or linking.
+
+When material comes from an external source, begin with the [ingestion process](system/INGESTION.md) and the [processing skills](system/skills/README.md) before creating or changing source entries.
 
 Do not fill the management summary by guessing. Propose a draft only when the source material and intended audience provide sufficient support.

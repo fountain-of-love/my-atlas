@@ -188,8 +188,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "2c991ace98e83d2f",
+  "active": "89d073c33c609ff8",
   "lastOpenFiles": [
+    "system/skills/provenance-weaving.md",
+    "system/skills/signal-extraction.md",
+    "system/skills/source-cartography.md",
+    "system/skills/README.md",
+    "system/skills",
+    "system/INGESTION.md",
+    "inputs/README.md",
+    "inputs",
     "llms.txt",
     "outputs/README.md",
     "source/README.md",
@@ -212,19 +220,11 @@
     "specs/experience.md",
     "specs/capability.md",
     "source/self/ways-of-working.md",
-    "source/self/philosophy-values.md",
-    "source/self/patterns.md",
-    "source/self/identity.md",
-    "source/self/direction.md",
-    "source/self/capabilities.md",
     "source/evidence",
     "source/contexts/relationships",
     "source/contexts/learning",
     "source/contexts/projects",
     "source/contexts/experiences",
-    "source/contexts",
-    "source/self",
-    "source",
-    "outputs"
+    "source/contexts"
   ]
 }

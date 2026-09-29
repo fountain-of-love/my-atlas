@@ -35,3 +35,7 @@ One self-model should support multiple expressions: a CV, website, profile, and 
 The atlas is also the beginning of a reusable system for building and inspecting a living self-model. See the [atlas-system notes](atlas-system.md); they record observations that may become system-relevant while remaining explicitly provisional.
 
 The practical working method is described in [PROCESS.md](PROCESS.md), with domain-specific structures collected under [specs](../specs/README.md). The source is person-first; CVs and other presentations are derived views.
+
+## Ingestion
+
+Existing material enters through the [inputs](../inputs/README.md) folder and moves through the [ingestion loop](INGESTION.md). The reusable processing capabilities are documented under [skills](skills/README.md).

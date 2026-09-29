@@ -110,6 +110,46 @@ The ambition to create a public and reusable self-model introduces an exposure �
 
 This is an observation about a needed capability, not a proposed access-control architecture.
 
+### One source can support many expressions
+
+The self-model should be canonical while its outputs remain plural. A CV, website, profile, or LLM interaction may select and compress different aspects for different audiences without becoming a competing source of truth.
+
+This makes the repository useful both as a living knowledge base and as a generator of practical representations.
+
+### Domains may be heterogeneous
+
+The fishbone can identify multiple domains, but the domains do not need to share one rigid schema. An experience, project, skill, relationship, or personal value may require different questions, relationships, evidence, and forms of interpretation.
+
+The system may therefore need a family of local specifications connected by shared vocabulary rather than one universal record type.
+
+### Vocabulary is infrastructure
+
+A dictionary is not supplementary documentation. Shared definitions allow Yves, Enigma, readers, and future tools to mean similar things when using terms such as experience, skill, project, evidence, outcome, or learning.
+
+Semantic alignment may be one of the system’s most important forms of interoperability.
+
+### Structure can accelerate emergence
+
+Structure is not necessarily containment in the restrictive sense. A fishbone, a domain map, and a lightweight spec can make it faster to place material, compare examples, notice gaps, and generate signal.
+
+The test is whether structure increases movement and learning. If it mainly creates administrative overhead or false certainty, it has become too heavy.
+
+### Specifications should be plural and earned
+
+Different element types may need different specifications. Specifications should begin as useful questions, become lightweight contracts through repeated use, and gain formal detail only when real entries reveal a recurring need.
+
+### The signal can precede perfection
+
+The first useful threshold is not completeness. It is whether the model already communicates enough of who Yves is, what he can do, and what he can offer to support meaningful interaction and further learning.
+
+This supports a progressive strategy: increase signal, preserve provenance, and improve precision over time.
+
+### The repository demonstrates the method
+
+The Atlas is itself evidence of how Yves approaches the AI paradigm shift: he supplies intent, lived knowledge, judgment, resonance, and boundaries; Enigma helps synthesize, structure, challenge, transform, and introduce disturbance.
+
+The method is not merely described in the repository. It is made visible through the repository’s evolving structure and outputs.
+
 ## Possible system capabilities
 
 The observations above suggest capabilities the system may eventually need. These are prompts for further exploration, not a component list:

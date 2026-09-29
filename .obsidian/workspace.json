@@ -11,10 +11,14 @@
             "id": "2c991ace98e83d2f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "atlas-system.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "atlas-system"
             }
           }
         ]
@@ -95,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "atlas-system.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "atlas-system.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -155,6 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "atlas-system.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -183,8 +190,20 @@
   },
   "active": "89d073c33c609ff8",
   "lastOpenFiles": [
+    "source/contexts/README.md",
+    "source/self/README.md",
+    "specs/project.md",
+    "specs/README.md",
     "specs/person-pattern.md",
+    "specs/experience.md",
     "specs/capability.md",
+    "source/self/ways-of-working.md",
+    "source/self/philosophy-values.md",
+    "source/self/patterns.md",
+    "source/self/identity.md",
+    "source/self/direction.md",
+    "source/self/capabilities.md",
+    "outputs/README.md",
     "source/evidence/README.md",
     "source/evidence",
     "source/contexts/relationships/README.md",
@@ -196,28 +215,16 @@
     "source/contexts/experiences/README.md",
     "source/contexts/experiences",
     "source/contexts",
-    "source/self/direction.md",
     "source/self/interests.md",
-    "source/self/philosophy-values.md",
-    "source/self/ways-of-working.md",
-    "source/self/capabilities.md",
-    "source/self/patterns.md",
-    "source/self/identity.md",
     "source/self",
     "source/README.md",
     "source",
-    "outputs/README.md",
     "outputs",
     "specs/skill.md",
-    "specs/project.md",
-    "specs/experience.md",
-    "specs/README.md",
     "specs",
     "model/people/README.md",
     "model/interests/README.md",
     "model/education/README.md",
-    "model/skills/README.md",
-    "model/projects/README.md",
-    "model/experience/README.md"
+    "model/skills/README.md"
   ]
 }

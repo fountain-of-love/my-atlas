@@ -6,6 +6,7 @@ The source is organized from a person perspective rather than from the structure
 
 ## Person-first core
 
+- [Person-first branch](self/README.md)
 - [Identity](self/identity.md)
 - [Patterns](self/patterns.md)
 - [Capabilities](self/capabilities.md)
@@ -16,6 +17,7 @@ The source is organized from a person perspective rather than from the structure
 
 ## Contexts and evidence
 
+- [Contexts](contexts/README.md)
 - [Experiences](contexts/experiences/README.md)
 - [Projects](contexts/projects/README.md)
 - [Learning](contexts/learning/README.md)

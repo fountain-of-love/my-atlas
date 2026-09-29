@@ -15,6 +15,7 @@ Definitions are provisional until tested in real entries.
 | **Experience** | A situated period of participation, responsibility, or work. |
 | **Project** | A bounded effort that produces change, artefacts, or learning. |
 | **Skill** | A narrower or context-specific expression of a capability. |
+| **Organization** | A company, institution, community, or other collective context. |
 | **Domain** | An area of the model with its own concepts, relationships, and specification. |
 | **Evidence** | Material that supports, qualifies, or challenges a claim. |
 | **Claim** | A statement the Atlas makes about Yves, his work, or his development. |
@@ -22,8 +23,8 @@ Definitions are provisional until tested in real entries.
 | **Outcome** | A change, result, artefact, or effect produced by an action or project. |
 | **Learning** | An extracted insight, changed understanding, or next practice resulting from experience. |
 | **Output** | A generated view of the canonical person-first self-model for a particular audience or purpose. |
+| **Source entry** | A human-readable, evidence-bearing unit in the canonical self-model. |
 | **Spec** | A guide describing the expected shape and questions for a kind of entry. |
-| **Pattern** | A recurring relationship or behaviour observed across entries or cycles. |
 
 ## Relationship vocabulary
 
@@ -33,7 +34,9 @@ Candidate relationships include:
 
 `Experience → involved → Project`
 
-`Experience → demonstrated → Skill`
+`Experience → demonstrated → Capability`
+
+`Capability → expressed_as → Skill`
 
 `Project → produced → Outcome`
 
@@ -45,6 +48,6 @@ Candidate relationships include:
 
 `Learning → emerged_from → Experience`
 
-`Output → derived_from → Model entry`
+`Output → derived_from → Source entry`
 
 This vocabulary should be expanded only when it helps us say something more clearly or connect material more usefully.

@@ -2,6 +2,12 @@
 
 This is the practical process for developing the Atlas while keeping the field open.
 
+## Current sequence
+
+`Intent → Field → Direction → Tension → Dance → …`
+
+The sequence is a working grammar rather than a fixed pipeline. The process itself is part of the model: we are applying this evolution while observing and documenting it.
+
 ## The fishbone
 
 The repository structure acts as a fishbone: a concrete surface against which ideas, facts, experiments, and questions can be placed. The person-first source is the central perspective; contexts and evidence are branches that help us observe and test what is true. It is useful because it gives direction without claiming that the final system is already known.
@@ -20,7 +26,7 @@ We can use it to:
 1. **Gather** lived experience, intuition, artefacts, decisions, and questions.
 2. **Place** the material against the fishbone, using the nearest provisional person or context domain.
 3. **Shape** it into a human-readable entry with explicit metadata where useful.
-4. **Relate** it to concepts, domains, projects, skills, outcomes, and evidence.
+4. **Relate** it to concepts, domains, projects, capabilities, outcomes, and evidence.
 5. **Reflect** on what the material reveals, including uncertainty and contradiction.
 6. **Contain** by correcting, selecting, naming, and integrating without closing too early.
 7. **Express** a view for a concrete audience or purpose.

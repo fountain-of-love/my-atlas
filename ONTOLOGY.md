@@ -18,7 +18,7 @@ The person is the organizing perspective. Contexts are not the model’s spine; 
 
 ## Core relationship
 
-The model should make it possible to move from:
+The source model should make it possible to move from:
 
 `Claim → Context → Evidence → Learning`
 

@@ -1,6 +1,6 @@
 # Specifications
 
-Specifications describe the expected shape of a kind of model entry. They are contracts for useful questions and interoperable structure, not bureaucratic forms.
+Specifications describe the expected shape of a kind of source entry. They are contracts for useful questions and interoperable structure, not bureaucratic forms.
 
 Different domains may need different specifications. A pattern, capability, project, person, and experience should not be forced into one universal schema.
 

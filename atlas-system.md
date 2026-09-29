@@ -130,7 +130,7 @@ The system may therefore need a family of local specifications connected by shar
 
 ### Vocabulary is infrastructure
 
-A dictionary is not supplementary documentation. Shared definitions allow Yves, Enigma, readers, and future tools to mean similar things when using terms such as experience, skill, project, evidence, outcome, or learning.
+A dictionary is not supplementary documentation. Shared definitions allow Yves, Enigma, readers, and future tools to mean similar things when using terms such as experience, capability, project, evidence, outcome, or learning.
 
 Semantic alignment may be one of the system’s most important forms of interoperability.
 

@@ -2,28 +2,9 @@
 
 This document is a shared placeholder for movements that begin to coexist as the Atlas passes through its tensions. These are observations, not established dances or a finished architecture.
 
-## Working compass
+## Compass context
 
-The current field can be oriented by two dimensions and four poles:
-
-| | Reflection | Expression |
-|---|---|---|
-| **Emergence** | noticing intuitions, associations, questions, and unexpected possibilities | experimenting, creating, and giving new material an initial form |
-| **Containment** | evaluating, comparing, selecting, relating, and integrating | structuring, articulating, exposing, and making useful form inspectable |
-
-### Formation: Emergence ↔ Containment
-
-This dimension concerns how form comes into being.
-
-- **Emergence** opens possibility. New material, intuitions, associations, experiments, and unexpected structures are allowed to enter the field.
-- **Containment** creates enough boundary and coherence for those possibilities to become useful. It evaluates, selects, structures, relates, and integrates without prematurely closing the field.
-
-### Orientation: Reflection ↔ Expression
-
-This dimension concerns where movement is directed.
-
-- **Reflection** turns toward what has happened or is happening: observing, questioning, comparing, extracting learning, noticing patterns, and revising understanding.
-- **Expression** turns outward: articulating what is becoming known, creating artifacts, giving ideas form, making them inspectable, and eventually exposing them to other people and contexts.
+The dances are observed within the [working compass](TENSIONS.md#working-compass): Formation (Emergence ↔ Containment) crossed with Orientation (Reflection ↔ Expression). The compass describes the field; this document follows the movements that traverse it.
 
 ## Roles in the field
 
@@ -71,14 +52,6 @@ The movement by which expressed form returns to the field and becomes material f
 The explicit choice to change the current mode of collaboration. I may ask Enigma to create chaos; Enigma may ask for lived evidence or a boundary decision. This mediator may be important because it keeps the human–AI relationship adaptive rather than fixed.
 
 These mediators may collapse into one another, split apart, or prove to be temporary names. Their value is currently generative: they help us notice the transitions that a static four-pole diagram cannot show.
-
-## Process
-
-The current process is:
-
-`Intent → Field → Direction → Tension → Dance → …`
-
-The process itself is part of the model. We are applying this evolution while observing and documenting it.
 
 ## Movements currently observed
 

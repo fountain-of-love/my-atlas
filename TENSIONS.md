@@ -2,6 +2,29 @@
 
 Tensions are spectra of opposing or complementary forces under whose pressure the Atlas can emerge. They are not contradictions to eliminate or a taxonomy to complete. They are conditions to move through and observe.
 
+## Working compass
+
+The field is currently oriented by two dimensions and four poles:
+
+| | Reflection | Expression |
+|---|---|---|
+| **Emergence** | noticing intuitions, associations, questions, and unexpected possibilities | experimenting, creating, and giving new material an initial form |
+| **Containment** | evaluating, comparing, selecting, relating, and integrating | structuring, articulating, exposing, and making useful form inspectable |
+
+### Formation: Emergence ↔ Containment
+
+This dimension concerns how form comes into being.
+
+- **Emergence** opens possibility. New material, intuitions, associations, experiments, and unexpected structures are allowed to enter the field.
+- **Containment** creates enough boundary and coherence for those possibilities to become useful. It evaluates, selects, structures, relates, and integrates without prematurely closing the field.
+
+### Orientation: Reflection ↔ Expression
+
+This dimension concerns where movement is directed.
+
+- **Reflection** turns toward what has happened or is happening: observing, questioning, comparing, extracting learning, noticing patterns, and revising understanding.
+- **Expression** turns outward: articulating what is becoming known, creating artefacts, giving ideas form, making them inspectable, and eventually exposing them to other people and contexts.
+
 ## Existing tension spectrum
 
 ### Architecture ↔ emergence

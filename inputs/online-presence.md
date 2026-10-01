@@ -49,6 +49,18 @@ load: validated material into source/
 | `fountain-of-love-github` | repository profile | [Fountain of Love GitHub](https://github.com/fountain-of-love) | repository association observed; authorship open | profile available |
 | `medium-di-comment` | technical writing | [Medium comment](https://medium.com/%40tankske/im-particulary-interested-in-how-you-ve-established-the-di-for-the-repository-cddc55405932) | attributed to subject | comment available |
 
+## LinkedIn source locations
+
+The LinkedIn profile is one input source with several meaningful locations.
+These locations are not education evidence themselves; they identify where a
+claim was communicated and allow extracted evidence to retain its lineage.
+
+| Location ID | Profile location | Used for |
+|---|---|---|
+| `online-linkedin-education` | Education section | Formal education claims, including KU Leuven |
+| `online-linkedin-certifications` | Licenses & Certifications section | Certificates listed through Coursera, UGent IVPV, and The Open Group |
+| `online-linkedin-courses` | Courses section | Additional course and training claims |
+
 ## Register rules
 
 - Add one row for each distinct online source, even when several sources refer

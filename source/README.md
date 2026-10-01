@@ -20,6 +20,7 @@ The source is organized from a person perspective rather than from the structure
 - [Contexts](contexts/README.md)
 - [Experiences](contexts/experiences/README.md)
 - [Projects](contexts/projects/README.md)
+- [Formal education](contexts/education/README.md)
 - [Learning](contexts/learning/README.md)
 - [People and organizations](contexts/relationships/README.md)
 - [Evidence](evidence/README.md)

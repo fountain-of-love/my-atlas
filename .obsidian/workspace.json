@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/evidence/education/linkedin-education.md",
+                "file": "source/evidence/education/professional-and-vendor-courses.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "linkedin-education"
+              "title": "professional-and-vendor-courses"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/evidence/education/linkedin-education.md",
+                "file": "source/evidence/education/professional-and-vendor-courses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/evidence/education/linkedin-education.md",
+                "file": "source/evidence/education/professional-and-vendor-courses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/evidence/education/linkedin-education.md",
+                "file": "source/evidence/education/professional-and-vendor-courses.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,33 +190,34 @@
   },
   "active": "2c991ace98e83d2f",
   "lastOpenFiles": [
+    "source/evidence/education/kuleuven-master-ai-programme.md",
+    "source/evidence/education/kuleuven-commercial-engineer-programme.md",
+    "source/evidence/education/ucll-graduate-programming-programme.md",
+    "source/evidence/education/summits-and-conferences.md",
+    "source/evidence/education/professional-and-vendor-courses.md",
+    "source/evidence/education/internal-company-education.md",
+    "source/evidence/education/coursera.md",
+    "source/evidence/education/continuing-professional-development.md",
+    "source/evidence/education/README.md",
+    "source/contexts/learning/biotechnology.md",
+    "source/contexts/learning/human-machine-communication.md",
+    "source/contexts/education/master-artificial-intelligence-kuleuven.md",
+    "source/contexts/education/graduate-programming-ucll.md",
+    "source/contexts/education/commercial-engineer-kuleuven.md",
+    "source/contexts/education/README.md",
+    "source/contexts/education",
     "source/contexts/learning/README.md",
+    "source/evidence/education/linkedin-education.md",
     "source/contexts/learning/process-mining-and-operational-insight.md",
     "source/contexts/learning/enterprise-architecture-and-systems-design.md",
     "source/contexts/learning/data-analytics-and-ai.md",
     "source/contexts/experiences/business-contexts.md",
     "source/contexts/learning/linkedin-education.md",
-    "source/evidence/education/linkedin-education.md",
     "source/evidence/education",
     "source/contexts/learning/software-engineering-and-secure-development.md",
     "source/contexts/experiences/linkedin-public-activity.md",
     "inputs/online-presence-transform.md",
     "inputs/online-presence-harvest.md",
-    "source/self/philosophy-values.md",
-    "source/self/patterns.md",
-    "source/self/interests.md",
-    "source/self/identity.md",
-    "source/self/direction.md",
-    "source/self/capabilities.md",
-    "inputs/online-presence.md",
-    "inputs/harvest.md",
-    "README.md",
-    "system/README.md",
-    "system/online-presence/lifecycle.md",
-    "system/online-presence/evaluation.md",
-    "system/skills/provenance-weaving.md",
-    "system/foundations/README.md",
-    "system/online-presence/specification.md",
     "system/foundations",
     "system/online-presence",
     "system/skills",
@@ -224,7 +225,6 @@
     "llms.txt",
     "system",
     "source/evidence",
-    "source/contexts/relationships",
-    "source/contexts/learning"
+    "source/contexts/relationships"
   ]
 }

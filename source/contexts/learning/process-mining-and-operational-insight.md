@@ -3,7 +3,7 @@ type: learning-context
 subject: "[[Yves Langeraert]]"
 status: provisional-context
 evidence-status: source-backed-unvalidated
-evidence: "[[source/evidence/education/linkedin-education]]"
+evidence: "[[source/evidence/education/coursera]]"
 ---
 
 # Process mining and operational insight
@@ -26,7 +26,7 @@ additional evidence.
 
 ## Course evidence
 
-The [LinkedIn education and course record](../../evidence/education/linkedin-education.md)
+The [Coursera certificate record](../../evidence/education/coursera.md)
 lists Process Mining: Data science in Action from Coursera, issued January
 2015.
 

@@ -3,7 +3,7 @@ type: learning-context
 subject: "[[Yves Langeraert]]"
 status: provisional-context
 evidence-status: source-backed-unvalidated
-evidence: "[[source/evidence/education/linkedin-education]]"
+evidence: "[[source/evidence/education/coursera]]"
 ---
 
 # Software engineering and secure development
@@ -26,7 +26,8 @@ expertise.
 
 ## Course evidence
 
-The [LinkedIn education and course record](../../evidence/education/linkedin-education.md)
+The [professional and vendor course record](../../evidence/education/professional-and-vendor-courses.md)
+and [internal/company-style education record](../../evidence/education/internal-company-education.md)
 lists Secure Coding in Java/JEE, Hacking Inside Out, and SecAppDev (KU
 Leuven).
 

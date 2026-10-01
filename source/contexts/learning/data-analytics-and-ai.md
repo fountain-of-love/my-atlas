@@ -3,7 +3,7 @@ type: learning-context
 subject: "[[Yves Langeraert]]"
 status: provisional-context
 evidence-status: source-backed-unvalidated
-evidence: "[[source/evidence/education/linkedin-education]]"
+evidence: "[[source/evidence/education/coursera]]"
 ---
 
 # Data, analytics, and applied AI
@@ -28,7 +28,9 @@ any later data or AI work.
 
 ## Course evidence
 
-The [LinkedIn education and course record](../../evidence/education/linkedin-education.md)
+The [Coursera certificate record](../../evidence/education/coursera.md),
+[professional and vendor course record](../../evidence/education/professional-and-vendor-courses.md),
+and [internal/company-style education record](../../evidence/education/internal-company-education.md)
 lists Exploratory Data Analysis, R Programming, The Data Scientist's Toolbox,
 Getting and Cleaning Data, Predictive analysis, SAS Base, QlikView Designer,
 QlikView Developer, and Big data in de praktijk — Hands on Hadoop, alongside

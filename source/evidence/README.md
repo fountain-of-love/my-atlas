@@ -22,5 +22,5 @@ Extracted source records:
 - [Professional and vendor courses](education/professional-and-vendor-courses.md)
 - [Internal and company-style education](education/internal-company-education.md)
 - [Summits and conferences](education/summits-and-conferences.md)
-- [Evening courses](continuing-professional-development.md)
+- [Evening courses](education/evening-courses.md)
 - [LinkedIn public activity](../contexts/experiences/linkedin-public-activity.md)

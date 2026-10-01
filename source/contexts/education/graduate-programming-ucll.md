@@ -8,6 +8,9 @@ completion-status: unknown
 period: unknown
 source-description-currentness: current-programme-description
 programme-evidence: "[[source/evidence/education/ucll-graduate-programming-programme]]"
+formative-role: hands-on-counterweight
+formative-weight: high
+decay-profile: slow
 ---
 
 # Graduate Programming — UCLL
@@ -40,6 +43,14 @@ See [UCLL Graduate Programming programme evidence](../../evidence/education/ucll
 
 This education may contribute to [software engineering and secure development](../learning/software-engineering-and-secure-development.md)
 and [data, analytics, and applied AI](../learning/data-analytics-and-ai.md).
+
+## Developmental role
+
+Yves places this programming education on the practical side of a formative
+tension: implementation, making, and contact with technical reality alongside
+theory learned at university. The exact programme and completion status remain
+open, but its reported role in the lineage is significant even if individual
+technologies later decay.
 
 ## Open questions
 

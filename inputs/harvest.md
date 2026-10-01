@@ -56,3 +56,30 @@ Yves reports that his participation in Vioras has ended.
 - Verify legal roles, dates, and current status independently where useful.
 - Explore other public company links in a later harvest pass before integrating
   additional claims into `source/`.
+
+## Formation and developmental lineage
+
+Yves describes a developmental lineage in which formal education and practical
+contexts have different weights and leave different kinds of traces. He sees
+the full-time university master’s education as a substantial foundational
+starting point: theory, conceptual models, and analytical formation on which
+later practice could build. He contrasts this with hands-on programming and
+the Graduate Group T / programming education, which brought implementation
+closer to the learning process.
+
+He describes later experience across small entrepreneurship, SMEs, and larger
+corporate settings as another part of the formation. Entrepreneurship brought
+direct exposure to risk and ownership; SME work brought proximity and
+versatility; corporate work brought the experience of managing responsibility
+and complexity for someone else at greater scale.
+
+He describes these contexts as creating productive tension fields rather than
+a simple progression. Theory and practice, builder and architect,
+entrepreneurial autonomy and organisational responsibility, and SME proximity
+and corporate scale have continuously informed one another. His current
+enterprise-architect identity may be understood as an integration of these
+experiences, rather than as the direct result of any single diploma or course.
+
+This is subject-supplied interpretation. The relative formative weight,
+decay, reinforcement, and causal relationship of each context remain open to
+further reflection and evidence.

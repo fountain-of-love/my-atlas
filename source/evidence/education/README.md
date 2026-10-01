@@ -20,7 +20,7 @@ listings, and the limits of what each source can establish.
 - [Professional and vendor courses](professional-and-vendor-courses.md)
 - [Internal and company-style education](internal-company-education.md)
 - [Summits and conferences](summits-and-conferences.md)
-- [Evening courses](continuing-professional-development.md)
+- [Evening courses](evening-courses.md)
 
 ## Provenance rule
 

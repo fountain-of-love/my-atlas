@@ -8,6 +8,9 @@ completion-status: unknown
 period: unknown
 source-description-currentness: current-programme-description
 programme-evidence: "[[source/evidence/education/kuleuven-commercial-engineer-programme]]"
+formative-role: foundational-breadth
+formative-weight: high
+decay-profile: slow
 ---
 
 # Commercial Engineer — KU Leuven
@@ -43,6 +46,13 @@ This education may contribute to [data, analytics, and applied AI](../learning/d
 [enterprise architecture and systems design](../learning/enterprise-architecture-and-systems-design.md),
 [biotechnology](../learning/biotechnology.md), and
 [human-machine communication](../learning/human-machine-communication.md).
+
+## Developmental role
+
+Yves describes the university education as a strong theoretical and
+analytical foundation. Its specific course knowledge may change over time, but
+the formation in systems, analysis, and interdisciplinary reasoning may have a
+slower decay and broader transfer into later architecture work.
 
 ## Open questions
 

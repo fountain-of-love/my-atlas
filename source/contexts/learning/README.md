@@ -27,7 +27,7 @@ level of mastery.
 - [Professional and vendor courses](../../evidence/education/professional-and-vendor-courses.md) — provider-linked courses and certifications not represented as formal degrees.
 - [Internal and company-style education](../../evidence/education/internal-company-education.md) — provisionally grouped technical education whose original provider is not fully visible.
 - [Summits and conferences](../../evidence/education/summits-and-conferences.md) — event-based learning claims.
-- [Evening courses](continuing-professional-development.md) — evening or avondschool learning, including unresolved source gaps.
+- [Evening courses](../../evidence/education/evening-courses.md) — evening or avondschool learning, including unresolved source gaps.
 
 Each category should grow beyond a list of courses when stronger evidence is
 available: projects, decisions, artefacts, outcomes, or Yves's own reflection.

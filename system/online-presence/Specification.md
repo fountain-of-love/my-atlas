@@ -5,10 +5,11 @@
 The document should become more semantically precise as it goes deeper. It
 does not need to become less readable or turn into a database dump.
 
-The document is a crawl and observation record. It is not a biography, profile
-interpretation, capability assessment, or person-first source entry. Any
-sentence that goes beyond what an inspected source contains must be moved to a
-separate validation or source-integration stage.
+The online-presence process is an ETL pipeline. The source register lists
+online sources, the harvest records source-bound observations, the transform
+interprets selected observations through an explicit lens, and the load stage
+updates the person-first model. None of these stages is a biography, profile
+interpretation, capability assessment, or automatic person-first source entry.
 
 ### 1. File identity
 
@@ -16,10 +17,10 @@ Use minimal front matter to describe the file itself:
 
 ```yaml
 ---
-type: online-presence-input
+type: online-presence-source-register
 subject: "[[Person]]"
 captured: YYYY-MM-DD
-status: discovery-result
+status: source-inventory
 ---
 ```
 
@@ -27,7 +28,34 @@ Front matter answers: “What kind of file is this, what does it concern, and
 when was it captured?” Do not repeat `type` in the body unless the second use
 names a genuinely different concept.
 
-### 2. Orientation
+### 2. Source register
+
+The source register contains URLs, source types, identity boundaries, access
+status, and retrieval limitations. It must not contain extracted observations.
+Use one row per distinct online source and give each source a stable ID.
+
+### 3. Harvest
+
+The harvest reads the source register and records observations that point back
+to a source ID. An observation states what the source contains, including
+retrieval limitations and unresolved identity boundaries. It must not interpret
+the person or assign a model meaning.
+
+### 4. Transform
+
+The transform selects observations and interprets them through an explicitly
+named person-level lens. Every transformation records its observation IDs,
+lens, provisional interpretation, confidence, validation requirement, and
+proposed load target.
+
+### 5. Load
+
+The load stage writes validated or explicitly provisional model entries and
+evidence objects to `source/`. It preserves the source IDs, observation IDs,
+original URLs, transform ID, and validation state. It must not rewrite the
+source register or harvest to fit the model.
+
+### 6. Orientation
 
 Begin with a short subject-first overview. State:
 
@@ -40,7 +68,7 @@ Begin with a short subject-first overview. State:
 The first screen should answer “What is this about?” before asking the reader
 to understand the processing machinery.
 
-### 3. Field and presence map
+### 7. Field and presence map
 
 Describe the input field and the public entities visible within it. Keep these
 entities distinct from the execution roles that process the result. Include
@@ -73,7 +101,7 @@ The vocabulary is open enough to support different media. For example,
 `source-type:: repository-profile`, `source-type:: artist-profile`,
 `source-type:: publication`, and `source-type:: portfolio` may all be valid.
 
-### 4. Evidence and lens contribution
+### 8. Evidence and lens contribution
 
 Keep the input observational. Record what the source contains and which
 person-level lenses it may contribute to, without forming the person-level
@@ -102,7 +130,7 @@ invite interpretation. A crawl may say “this source contains the term
 `software architecture`” or “review for a possible Behaviour route”; it may not
 say “the person is a software architect” or “this demonstrates a capability.”
 
-### 5. Program, process, and execution
+### 9. Program, process, and execution
 
 Make the work plan and its enactment inspectable. The program states what is
 in scope and what should happen; the process orders and schedules that work;

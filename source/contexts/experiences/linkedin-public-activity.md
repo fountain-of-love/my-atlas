@@ -4,6 +4,8 @@ subject: "[[Yves Langeraert]]"
 status: source-extracted
 evidence-status: observed-unvalidated
 source: "[[LinkedIn]]"
+harvest: "[[inputs/online-presence-harvest]]"
+transform: "[[inputs/online-presence-transform]]"
 source-url: https://www.linkedin.com/in/yveslangeraert/
 captured: 2026-09-29
 ---

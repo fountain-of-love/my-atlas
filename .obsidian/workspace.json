@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "inputs/online-presence.md",
+                "file": "source/evidence/education/linkedin-education.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "online-presence"
+              "title": "linkedin-education"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "inputs/online-presence.md",
+                "file": "source/evidence/education/linkedin-education.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "inputs/online-presence.md",
+                "file": "source/evidence/education/linkedin-education.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "inputs/online-presence.md",
+                "file": "source/evidence/education/linkedin-education.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,33 +190,34 @@
   },
   "active": "2c991ace98e83d2f",
   "lastOpenFiles": [
+    "source/contexts/learning/README.md",
+    "source/contexts/learning/process-mining-and-operational-insight.md",
+    "source/contexts/learning/enterprise-architecture-and-systems-design.md",
+    "source/contexts/learning/data-analytics-and-ai.md",
+    "source/contexts/experiences/business-contexts.md",
+    "source/contexts/learning/linkedin-education.md",
+    "source/evidence/education/linkedin-education.md",
+    "source/evidence/education",
+    "source/contexts/learning/software-engineering-and-secure-development.md",
+    "source/contexts/experiences/linkedin-public-activity.md",
+    "inputs/online-presence-transform.md",
+    "inputs/online-presence-harvest.md",
+    "source/self/philosophy-values.md",
+    "source/self/patterns.md",
+    "source/self/interests.md",
+    "source/self/identity.md",
+    "source/self/direction.md",
+    "source/self/capabilities.md",
+    "inputs/online-presence.md",
     "inputs/harvest.md",
     "README.md",
     "system/README.md",
     "system/online-presence/lifecycle.md",
     "system/online-presence/evaluation.md",
     "system/skills/provenance-weaving.md",
-    "inputs/online-presence.md",
-    "source/contexts/experiences/business-contexts.md",
-    "source/contexts/experiences/linkedin-public-activity.md",
-    "source/contexts/learning/linkedin-education.md",
     "system/foundations/README.md",
     "system/online-presence/specification.md",
-    "system/TENSIONS.md",
-    "system/foundations/tensions.md",
-    "system/foundations/self-model.md",
-    "system/foundations/process.md",
-    "system/foundations/ontology.md",
-    "system/foundations/ingestion.md",
-    "system/foundations/direction.md",
-    "system/foundations/dances.md",
     "system/foundations",
-    "system/PROCESS.md",
-    "system/ONTOLOGY.md",
-    "system/INGESTION.md",
-    "system/DIRECTION.md",
-    "system/DANCES.md",
-    "system/Self-model.md",
     "system/online-presence",
     "system/skills",
     "inputs",
@@ -224,7 +225,6 @@
     "system",
     "source/evidence",
     "source/contexts/relationships",
-    "source/contexts/learning",
-    "source/contexts/projects"
+    "source/contexts/learning"
   ]
 }

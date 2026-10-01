@@ -1,20 +1,22 @@
 ---
-type: learning-context
+type: learning-evidence-register
 subject: "[[Yves Langeraert]]"
 status: source-extracted
 evidence-status: observed-unvalidated
 source: "[[LinkedIn]]"
+harvest: "[[inputs/online-presence-harvest]]"
+transform: "[[inputs/online-presence-transform]]"
 source-url: https://www.linkedin.com/in/yveslangeraert/
 captured: 2026-09-29
 ---
 
-# LinkedIn education and credentials
+# LinkedIn education and course record
 
-This entry records education, certifications, and courses listed in the public
-LinkedIn profile snapshot. It does not assess their significance, currentness,
-or relationship to capability. LinkedIn is the source for the fact that these
-items are listed on the profile; independent credential validation has not yet
-been performed.
+This is a source-bound evidence register, not a description of Yves's
+learning. It records education, certifications, and courses listed in the
+public LinkedIn profile snapshot. The learning category pages interpret this
+record into contexts; they do not claim that the profile listing independently
+validates the credentials or establishes current mastery.
 
 ## Education
 
@@ -33,8 +35,6 @@ been performed.
 - TOGAF — The Open Group; issue date was not visible in the indexed snapshot.
 
 ## Courses
-
-The profile snapshot lists the following courses:
 
 - Big data in de praktijk — Hands on Hadoop;
 - Secure Coding in Java/JEE;

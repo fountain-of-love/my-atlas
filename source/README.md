@@ -24,4 +24,4 @@ The source is organized from a person perspective rather than from the structure
 - [People and organizations](contexts/relationships/README.md)
 - [Evidence](evidence/README.md)
 
-These are provisional branches of the fishbone. They may evolve differently and do not need to share one universal schema.
+These are provisional branches of the fishbone. They may evolve differently and do not need to share one universal schema. Context pages should explain Yves's relationship to a domain; source-bound registers and harvested material belong under evidence or inputs.

@@ -10,24 +10,38 @@ The following boundaries should remain distinct:
     The distributed public reality being observed: profiles, repositories, publications, performances, websites, organisations, communities, interactions, chronology, metadata, relationships, and other observable traces.
     
 2. **Online Presence Input**
-    An evidence-bearing record of observations from the public field. It preserves sources, contexts, relationships, provenance, uncertainty, and possible contributions to the person lenses. It does not interpret the person or replace the canonical source model.
+    A source register for the public field. It lists sources, identity boundaries, provenance, and retrieval state. It does not contain extracted observations or interpret the person.
+
+3. **Online Presence Harvest**
+    An extraction artifact containing source-bound observations from the
+    registered sources. It preserves provenance and uncertainty but does not
+    interpret the person.
+
+4. **Online Presence Transform**
+    A staged interpretation of selected observations through an explicitly
+    named person-level lens. It produces provisional model candidates and
+    proposed load targets; it is not itself canonical knowledge.
     
-3. **Person-first Model**
+5. **Person-first Model**
     The canonical source model of the person. Validated material from inputs is integrated here under the person-level lenses: Experience, Identity, Interaction, Growth, and Behaviour.
 
-4. **Outputs**
+6. **Outputs**
     Views generated from the person-first model for a particular audience or purpose, such as a profile, portfolio, CV, website, or context package.
 
-5. **Online Presence Meta-System**
+7. **Online Presence Meta-System**
     The reusable system that defines how online-presence inputs are produced, governed, evaluated, improved, and routed into the model.
 
-The core flow is:
+The core ETL flow is:
 
 ```text
 public presence field
-        ↓ observe
-online-presence input
-        ↓ validate and route
+        ↓ register
+online-presence source register
+        ↓ harvest
+source-bound observations
+        ↓ transform
+provisional lens-specific candidates
+        ↓ validate and load
 person-first model
         ↓ select and express
 outputs
@@ -38,30 +52,25 @@ The canonical model remains person-first. An input is evidence about a person's 
 
 ## Input principles
 
-Each online-presence input should:
+The source register and its downstream artifacts should:
 
-- give a human reader a meaningful view of the subject quickly;
-    
 - identify the public contexts in which the subject appears;
-    
-- distinguish sources, observations, and processing state;
-    
+- distinguish sources, observations, transformations, and processing state;
 - preserve provenance, uncertainty, and explicit boundaries;
-    
 - support relationships between observations and underlying evidence;
-    
 - indicate which person-level lenses an observation may contribute to;
-    
 - expose enough structure for later human or machine processing;
+- remain inputs rather than becoming a second source of truth.
     
-- remain an input rather than becoming a second source of truth.
-    
 
-Interpretation and model formation happen after observation, during ingestion into `source/`. The input may say that an observation can contribute to **Experience** or **Behaviour**, but it must not silently turn that route into a claim about the person.
+Interpretation and model formation happen after harvesting, during the
+transform and load stages. The source register and harvest must not silently
+turn a source or observation into a claim about the person.
 
-## Crawl contract
+## Extract contract
 
-The online-presence input is a crawl record, not an interpretation.
+The online-presence source register is an inventory, not an interpretation. The
+harvest is an extraction record, not an interpretation.
 
 Its job is to grow the searchable field by recording:
 
@@ -85,16 +94,17 @@ The input must not:
 The operational rule is simple:
 
 ```text
-crawl expands the field
-observation records the source
-route marks where to look next
-validation checks meaning
-source integration creates person-level knowledge
+register identifies the source
+harvest records what it contains
+transform states what it may mean through a lens
+validation checks the candidate
+load creates or updates model knowledge
 ```
 
 If a sentence cannot be supported by pointing to the inspected source itself,
-it belongs in `source/`, a validation record, or `inputs/harvest.md`—not in the
-online-presence crawl.
+it does not belong in the source register or harvest. It belongs in the
+transform stage, a validation record, `source/`, or the separate subject-
+supplied `inputs/harvest.md`, depending on what kind of statement it is.
 
 ## Roles, skills, and permissions
 
@@ -180,7 +190,9 @@ The resulting heuristic becomes part of the Meta-System and influences future in
 
 ## Input-level lens contribution
 
-An online-presence input does not instantiate a second person model. It records observations and routes them toward the existing person-level lenses.
+The online-presence pipeline does not instantiate a second person model. Its
+harvest records observations and its transform routes provisional candidates
+toward the existing person-level lenses.
 
 |Person lens|What an online-presence observation may contribute|
 |---|---|---|

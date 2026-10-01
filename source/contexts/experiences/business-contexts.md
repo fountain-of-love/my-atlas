@@ -4,6 +4,8 @@ subject: "[[Yves Langeraert]]"
 status: source-extracted
 evidence-status: observed-unvalidated
 source: "[[inputs/online-presence]]"
+harvest: "[[inputs/online-presence-harvest]]"
+transform: "[[inputs/online-presence-transform]]"
 captured: 2026-09-29
 ---
 

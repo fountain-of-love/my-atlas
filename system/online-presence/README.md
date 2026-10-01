@@ -59,6 +59,70 @@ Each online-presence input should:
 
 Interpretation and model formation happen after observation, during ingestion into `source/`. The input may say that an observation can contribute to **Experience** or **Behaviour**, but it must not silently turn that route into a claim about the person.
 
+## Crawl contract
+
+The online-presence input is a crawl record, not an interpretation.
+
+Its job is to grow the searchable field by recording:
+
+- URLs, profiles, repositories, publications, organizations, and linked entities;
+- what each inspected source visibly contains;
+- source dates, access dates, provenance, and retrieval limitations;
+- repeated names, topics, terms, relationships, and routes for further search;
+- contradictions, missing pages, ambiguous identities, and unresolved questions;
+- possible lens destinations, explicitly marked as routing only.
+
+The input must not:
+
+- describe the person as having a capability, value, trait, motivation, or identity;
+- convert a profile label into a validated role, ownership, authorship, or contribution;
+- synthesize recurring topics into a person-level pattern;
+- resolve ambiguity by intuition or narrative coherence;
+- use phrases such as “this shows that Yves...” or “Yves is...” unless the source
+  is a direct, attributable self-statement and the wording remains an observation;
+- create claims, model candidates, or canonical source entries.
+
+The operational rule is simple:
+
+```text
+crawl expands the field
+observation records the source
+route marks where to look next
+validation checks meaning
+source integration creates person-level knowledge
+```
+
+If a sentence cannot be supported by pointing to the inspected source itself,
+it belongs in `source/`, a validation record, or `inputs/harvest.md`—not in the
+online-presence crawl.
+
+## Roles, skills, and permissions
+
+Roles describe work performed on the input. They must not be confused with
+roles or identities found in the public sources.
+
+| Role | Responsibility | Required skills | May do | Must not do |
+| --- | --- | --- | --- | --- |
+| Crawler | Expand the public search field | Web search, browsing, URL tracing, access logging | Find links, follow source trails, record retrieval status | Interpret the person or validate a claim |
+| Source inspector | Read an individual source | Close reading, provenance capture, source comparison | Record direct observations and exact source context | Generalize beyond the source |
+| Evidence curator | Normalize the crawl | Information architecture, deduplication, uncertainty handling | Group sources, preserve boundaries, mark contradictions | Turn repeated observations into person-level conclusions |
+| Subject | Validate personal meaning and identity | First-person context, correction, consent judgment | Confirm, reject, qualify, or contextualize observations | Be treated as automatically validating public evidence |
+| Source integrator | Process validated material into `source/` | Domain modeling, claim construction, traceability | Create model candidates and canonical source entries after validation | Backfill interpretations into the crawl |
+| Reviewer / gatekeeper | Enforce the contract | Boundary review, epistemic hygiene, audit discipline | Block semantic drift and require provenance | Quietly rewrite evidence as narrative |
+
+### Stage gate
+
+Every transition must leave an inspectable artifact:
+
+| Transition | Required artifact | Gate |
+| --- | --- | --- |
+| Discover → Crawl | Search routes and candidate URLs | No candidate is treated as evidence yet |
+| Crawl → Inspect | Source register with access status | A source must be identifiable and retrievable, or marked unavailable |
+| Inspect → Observe | Observation record with source pointer | Wording stays source-bound |
+| Observe → Route | Optional lens/topic route | Route is not a conclusion |
+| Route → Validate | Review queue | Subject or designated validator sees what requires confirmation |
+| Validate → Integrate | Validation decision and provenance | Only then may source integration create person-level knowledge |
+
 ## The canonical five-element system
 
 The Online Presence architecture uses one canonical five-element system expressed through two equivalent lenses.

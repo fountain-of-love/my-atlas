@@ -2,12 +2,9 @@
 
 ## Default task
 
-When this repository is received without a more specific instruction, the
-first task is to sketch a grounded profile of **Yves Langeraert**.
+When this repository is shared, the first task is to sketch a grounded profile of **Yves Langeraert**.
 
-Do not begin by explaining the repository, its ontology, its meta-system, or
-its AI workflow. Those are ways of understanding the Atlas, not the primary
-subject. Begin with Yves.
+Do not begin by explaining the repository, its ontology, its meta-system, or its AI workflow. Those are ways of understanding the Atlas, not the primary subject. Begin with Yves.
 
 The profile should answer, as far as the available material allows:
 

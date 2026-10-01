@@ -5,6 +5,11 @@
 The document should become more semantically precise as it goes deeper. It
 does not need to become less readable or turn into a database dump.
 
+The document is a crawl and observation record. It is not a biography, profile
+interpretation, capability assessment, or person-first source entry. Any
+sentence that goes beyond what an inspected source contains must be moved to a
+separate validation or source-integration stage.
+
 ### 1. File identity
 
 Use minimal front matter to describe the file itself:
@@ -91,6 +96,12 @@ Never let a lens contribution silently become a claim. Use qualifiers such as
 `possible`, `unresolved`, `corroborated`, and `validated` where they materially
 change the meaning.
 
+For crawl work, “lens contribution” is optional routing metadata only. Prefer
+search topics, linked entities, and follow-up routes when a lens label would
+invite interpretation. A crawl may say “this source contains the term
+`software architecture`” or “review for a possible Behaviour route”; it may not
+say “the person is a software architect” or “this demonstrates a capability.”
+
 ### 5. Program, process, and execution
 
 Make the work plan and its enactment inspectable. The program states what is
@@ -113,6 +124,20 @@ For example, a source may be assigned to a researcher for inspection, a
 subject for validation, and a curator for integration. An agent may extract
 observations but not validate personal meaning. These are execution contracts,
 not claims about the subject's public identity.
+
+The minimum execution contract is:
+
+| Role | Output |
+| --- | --- |
+| Crawler | Candidate URLs, source register, retrieval status, search routes |
+| Source inspector | Source-bound observations with provenance |
+| Evidence curator | Normalized entities, duplicates, contradictions, and boundaries |
+| Subject / validator | Confirmation, correction, qualification, or rejection |
+| Source integrator | Validated model candidates and canonical source entries |
+| Reviewer / gatekeeper | Boundary decision and release approval |
+
+No role may silently perform the next role's work. In particular, a crawler or
+inspector may not perform source integration.
 
 ### 6. Lens contribution map
 

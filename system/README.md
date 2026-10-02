@@ -19,6 +19,18 @@ skills/            → reusable processing capabilities
 online-presence/   → first domain-specific system application
 ```
 
+The recent education work has exposed another system concern: the Atlas must
+track both where a claim came from and how a context may have contributed to
+the person. These are related but different lineages.
+
+```text
+source lineage:
+source → extraction → evidence → context → claim
+
+developmental lineage:
+context → formative contribution → tension or reinforcement → capability → identity
+```
+
 ## Foundations
 
 The documents in [`foundations/`](foundations/) are the retained bootstrap
@@ -57,6 +69,13 @@ Inputs remain evidence-bearing material until they are processed and
 validated. The source remains canonical. Outputs are views. The system learns
 from this flow and from the repository’s own revisions, but should not turn
 every useful observation into a fixed component prematurely.
+
+The system should use the person-facing material to produce efficient,
+inspectable synthesis. It should not give equal weight to every input: a
+foundational degree, a short tool course, a work context, and a current
+reflection may play different developmental roles. Weight and decay belong to
+interpretation, not to source extraction, and must remain visible as
+provisional judgement.
 
 ## How to work here
 

@@ -22,6 +22,11 @@ Definitions are provisional until tested in real entries.
 | **Context** | The conditions, people, organization, problem, or situation around a claim. |
 | **Outcome** | A change, result, artefact, or effect produced by an action or project. |
 | **Learning** | An extracted insight, changed understanding, or next practice resulting from experience. |
+| **Formative contribution** | The way a context may have shaped later understanding, judgement, practice, or identity. |
+| **Formative weight** | A qualitative estimate of how foundational or consequential a context appears to have been. |
+| **Decay profile** | An estimate of how quickly a context’s specific knowledge, practice, or influence may fade or transform. |
+| **Tension field** | A productive relationship between poles whose pressure may generate learning or capability. |
+| **Developmental lineage** | A qualified path from context through contribution and tension toward capability and identity. |
 | **Output** | A generated view of the canonical person-first self-model for a particular audience or purpose. |
 | **Source entry** | A human-readable, evidence-bearing unit in the canonical self-model. |
 | **Spec** | A guide describing the expected shape and questions for a kind of entry. |
@@ -47,6 +52,12 @@ Candidate relationships include:
 `Claim → supported_by → Evidence`
 
 `Learning → emerged_from → Experience`
+
+`Context → contributed_formatively_to → Capability`
+
+`Tension field → generated_or_shaped → Capability`
+
+`Identity hypothesis → informed_by → Developmental lineage`
 
 `Output → derived_from → Source entry`
 

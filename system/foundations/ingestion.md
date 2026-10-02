@@ -6,6 +6,15 @@ Ingestion is the movement from existing material into the person-first self-mode
 
 `Input → Observation → Candidate source entry → Validation → Source → Output`
 
+For developmental material, a second path may be opened after the source
+observation is stable:
+
+`Context → Formative contribution → Tension or reinforcement → Candidate capability → Identity hypothesis`
+
+The second path is interpretive and subject-validatable. It must never be
+quietly folded into the first path as if formative meaning were directly
+observed in the input.
+
 The input remains an input. The source entry becomes the canonical, human-readable model. An output is a later projection for a particular audience or purpose.
 
 ## Processing loop
@@ -45,6 +54,20 @@ Place observations against the person-first source and its contextual branches. 
 
 Create small, provisional entries only where a recurring or useful signal is strong enough. Link each candidate to its input and relevant evidence. Prefer a few rich candidates over a comprehensive rewrite.
 
+When several contexts concern the same development, also record their
+qualitative developmental properties where useful:
+
+- formative role — foundational, enabling, situational, catalytic, or other
+  domain-specific wording;
+- formative weight — low, medium, high, or very high;
+- decay profile — fast for tool details, slower for habits, concepts, or
+  identity-shaping experiences;
+- transfer — narrow, adjacent, or broad;
+- reinforcement — later contexts that repeat, challenge, or transform the
+  contribution.
+
+These are interpretations, not source facts.
+
 ### 6. Validate with Yves
 
 Yves validates resonance, truth, nuance, boundaries, and what should remain private. Enigma may compare sources, expose contradictions, suggest alternatives, and identify blind spots, but does not silently settle personal meaning.
@@ -74,3 +97,21 @@ An older broad CV, a recent tailored CV, online presence, and book writing shoul
 The first pass should aim to produce a useful signal, not a complete biography. A good initial cycle might yield three candidate patterns, three capabilities, two ways of working, two values or beliefs, and several linked contexts or evidence items.
 
 The loop can be repeated with the next source. Completeness is allowed to emerge from comparison.
+
+## Efficient synthesis rule
+
+Do not process every item to the same depth. Route material according to its
+role:
+
+1. preserve the source observation and provenance;
+2. classify the context and its evidence state;
+3. identify whether it is likely foundational, situational, reinforcing, or
+   unresolved;
+4. deepen only where it changes a learning category, tension field, capability
+   hypothesis, or identity interpretation;
+5. retain lighter items as linked evidence rather than expanding them into
+   elaborate biography.
+
+This creates compression without flattening: high-value lineage remains rich,
+while low-weight or fast-decaying details remain discoverable but do not
+dominate the model.

@@ -118,6 +118,73 @@ The person-first self-model should be canonical while its outputs remain plural.
 
 This makes the repository useful both as a living knowledge base and as a generator of practical representations.
 
+### The Atlas needs two kinds of lineage
+
+The education work exposed a distinction that should become a reusable system
+principle. The first lineage is source-facing:
+
+```text
+source → extraction → evidence → context → claim
+```
+
+It preserves where a statement came from and what the source can support. The
+second is person-facing:
+
+```text
+context → formative contribution → tension or reinforcement → capability → identity
+```
+
+It interprets how education, work, entrepreneurship, and learning may have
+contributed to who Yves is now. The two lineages must be linked, but a source
+claim must not be mistaken for a developmental explanation. LinkedIn can say
+that a course was listed; it cannot by itself say how important that course was
+to Yves's identity.
+
+### Formative weight is asymmetric
+
+The recent education model shows that items in a source register do not have
+equal developmental weight. A full-time master’s education may provide a
+slow-decaying conceptual foundation. A short tool course may have fast-decaying
+tool knowledge but leave a durable habit or exposure. An entrepreneurial period
+may shape judgement more deeply than either while being harder to represent as
+a credential.
+
+This suggests qualitative developmental metadata rather than a flat list:
+formative role, formative weight, decay profile, transfer, and reinforcement.
+These values belong to interpretation and remain provisional.
+
+### Tensions are capability generators
+
+The person-facing work surfaced theory ↔ practice, builder ↔ architect,
+autonomy ↔ organisational responsibility, proximity ↔ scale, and breadth ↔
+depth. The system should preserve these as fields of development rather than
+flattening them into labels. A candidate capability becomes stronger when it is
+repeatedly shaped by both poles and supported by outcomes.
+
+### Dance is discovery; system is routing
+
+The work reached these distinctions through a dance: resonance, contrast,
+reframing, and recognition. The reusable system does not need to reproduce the
+dance literally. It can use the resulting learnings as routing rules:
+
+1. preserve the source observation;
+2. route it to the correct context or evidence register;
+3. identify its possible formative role and decay;
+4. connect it to relevant tensions and reinforcing contexts;
+5. deepen it only when it changes a capability or identity hypothesis;
+6. compress it into an output while retaining a path back to evidence.
+
+The dance remains a discovery method. The system becomes effective by making
+the discovered distinctions explicit, reusable, and inspectable.
+
+### Compression should be weighted, not uniform
+
+Efficient synthesis does not mean shortening everything equally. It means
+allocating attention according to lineage strength, formative weight,
+reinforcement, uncertainty, and present relevance. Rich foundational contexts
+and productive tensions deserve deeper treatment; low-weight or fast-decaying
+items should remain concise but traceable.
+
 ### The person is the perspective, not another category
 
 The initial scaffold was shaped too strongly by the composition of a CV. The emerging correction is to organize the source around the person: patterns, capabilities, identity, values, philosophy, ways of working, interests, and direction.
@@ -172,6 +239,11 @@ The observations above suggest capabilities the system may eventually need. Thes
 - make the boundary between public usefulness and personal privacy explicit;
 - support natural compression while allowing a reader to follow the evidence back to richer detail;
 - show both the self-model and the model-building process.
+- preserve source lineage and developmental lineage as separate traversable paths;
+- route evidence according to formative role, decay, reinforcement, and current relevance;
+- identify productive tensions from which candidate capabilities may emerge;
+- compress low-weight material without losing provenance or discoverability;
+- distinguish a source-supported claim from a subject-supplied identity interpretation.
 
 These capabilities should be validated by continued use. They should not yet be implemented as a prescribed architecture.
 

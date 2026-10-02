@@ -11,6 +11,8 @@ The Atlas currently needs to represent at least:
 - **the person**: the primary subject, including identity, patterns, capabilities, philosophy, values, interests, ways of working, and direction;
 - **contexts**: experiences, projects, organizations, relationships, and learning situations through which the person becomes visible;
 - **evidence**: artefacts, outcomes, references, metrics, and other support for claims;
+- **lineages**: source provenance and developmental formation, kept distinct but connectable;
+- **tensions**: productive fields between poles from which capabilities may emerge;
 - **domains**: different areas of life and work that may require different local structures;
 - **outputs**: views generated from the canonical source.
 
@@ -23,6 +25,15 @@ The source model should make it possible to move from:
 `Claim → Context → Evidence → Learning`
 
 For example, a claim about a capability should be grounded in where it was used, what happened, what supports the claim, and what was learned from the experience.
+
+The developmental model adds a second movement:
+
+`Context → Formative contribution → Tension or reinforcement → Capability → Identity`
+
+This is not a causal proof chain. It is a qualified interpretation of how
+contexts may accumulate into a person. Formal education, a short course, an
+entrepreneurial period, and a corporate role should therefore not be treated as
+equivalent nodes merely because all can be listed as experiences.
 
 ## One self-model, multiple views
 
